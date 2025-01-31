@@ -1,0 +1,7 @@
+<resources>
+    <string name = "app_name">KMP-News-APP</string>
+    <string name = "setting">Setting</string>
+    <string name = "headlines">Headlines</string>
+    <string name = "search">Search</string>
+    <string name = "bookmark">Bookmark</string>
+</resources>

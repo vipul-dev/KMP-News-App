@@ -1,0 +1,4 @@
+com.vipul.kmp.news.test.composeApp-androidTest-0 /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/generated/res/resValues/androidTest/debug
+com.vipul.kmp.news.test.composeApp-mergeDebugAndroidTestResources-1 /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.vipul.kmp.news.test.composeApp-mergeDebugAndroidTestResources-2 /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.vipul.kmp.news.test.composeApp-debugAndroidTest-3 /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

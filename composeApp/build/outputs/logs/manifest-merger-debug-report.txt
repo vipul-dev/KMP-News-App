@@ -1,0 +1,340 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.activity:activity:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/1a1453c01b02f7844d132086adb9a0f2/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.navigation:navigation-common:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b80233be47e47e21b2b5779604e3f7ed/transformed/navigation-common-2.8.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b3a32185bd1db6cb723a77b59ee69d85/transformed/navigation-common-ktx-2.8.0-alpha05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/2ad8087ae9f41738e24c0d8a80ee230f/transformed/navigation-runtime-ktx-2.8.0-alpha05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/bc4d694c6a42c79004dbc342a41ee659/transformed/navigation-compose-2.8.0-alpha05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/ee67ca9b07614ebc412f0c6e5e5c098e/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/5043e72c9daf6e1e304759428a7ffa85/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f11d82a03e7afe119f70fe36843c5cd8/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/5af8d6707bf91c9148a0da9ff80e47c7/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/fd755574dae284ed0fcf58d591a0cef2/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/869aa169f7fe953a243bcba1350180e0/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/879f687f8dbfef8959c30aa641e8d622/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/93ca1284554ff18ff6d54d494413f3cd/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/e5a555bde227d9c8fcf1de1b70fee9b6/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/3f0314d8f63a2538794aed7895dd5c4e/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/9c9381bf98159ad30fa2dd7dc746e19c/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7c5fe2333fbc3c35b9feb774e3e16301/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0b72c605c4fee554f0c9c8d1f0efcea3/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0985ace0dd51851e226f45e750e9491b/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f0f9ace3c41ab5edea1d9348401b330e/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/5fdf58065a4ab9b34ab83a4d21db797b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/9004e2d027c59faec94aa9a985fb81dd/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/e5f03fdfadc6cde325a1d649e63afa86/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/ff1c1546e400c35d2ebbb35dfcbc679a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/cec8405d63acb8ac4c8c04c78fd280de/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/vipul/.gradle/caches/8.9/transforms/3b6ef93f74d94ab9d7dda310a49e3ebd/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/d3f5ab6f04c4c3d297f5ec4a9cbe7a36/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/1941643f6898b51bbcefaec57159c2f1/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/c4021f9c38d528c6c78157d14835ca87/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/205fc393344454deea6bc034895fcd1f/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/fa2b61c678e69aa9702a98e7dd56f928/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/ae5430178a5b9071caa3c982f9f59b89/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/5dac76e88ad2a4b52a4e3e06697497d5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/0fb458e926368c2f825cb119dee503e1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/535d17b13ea1aba387767582b91a9d72/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/c84367c3ddb417153bbd3220bccf933c/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/613606b8e3a8b9f0a86fa0bc6cdaeed3/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/16e8284e17c0e32d67ab02c52f7c0742/transformed/library-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/d19ae67224b6d77e19dfb9bf60cb65ad/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7ed28224003a807ea87dd55580dfbc30/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/vipul/.gradle/caches/8.9/transforms/f8ae083cf75659c286bfac21024cb2d4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vipul/.gradle/caches/8.9/transforms/2bef50b6d469034db2bd549e44fb7f88/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/5f786d0c4305883c0e9f1f86f8ce488e/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/7550f67fd388ff107737f7263812bfdf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:4:5-21:19
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:4:5-21:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:7:5-14:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:10:9-72
+activity#com.vipul.kmp.news.MainActivity
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:11:9-20:20
+	android:exported
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:12:13-36
+	android:configChanges
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:13:13-225
+	android:name
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/1a1453c01b02f7844d132086adb9a0f2/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/1a1453c01b02f7844d132086adb9a0f2/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b80233be47e47e21b2b5779604e3f7ed/transformed/navigation-common-2.8.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b80233be47e47e21b2b5779604e3f7ed/transformed/navigation-common-2.8.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b3a32185bd1db6cb723a77b59ee69d85/transformed/navigation-common-ktx-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/b3a32185bd1db6cb723a77b59ee69d85/transformed/navigation-common-ktx-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/2ad8087ae9f41738e24c0d8a80ee230f/transformed/navigation-runtime-ktx-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/2ad8087ae9f41738e24c0d8a80ee230f/transformed/navigation-runtime-ktx-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/bc4d694c6a42c79004dbc342a41ee659/transformed/navigation-compose-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0-alpha05] /home/vipul/.gradle/caches/8.9/transforms/bc4d694c6a42c79004dbc342a41ee659/transformed/navigation-compose-2.8.0-alpha05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/ee67ca9b07614ebc412f0c6e5e5c098e/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/ee67ca9b07614ebc412f0c6e5e5c098e/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/5043e72c9daf6e1e304759428a7ffa85/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/5043e72c9daf6e1e304759428a7ffa85/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f11d82a03e7afe119f70fe36843c5cd8/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f11d82a03e7afe119f70fe36843c5cd8/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/5af8d6707bf91c9148a0da9ff80e47c7/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/5af8d6707bf91c9148a0da9ff80e47c7/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/fd755574dae284ed0fcf58d591a0cef2/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/fd755574dae284ed0fcf58d591a0cef2/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/869aa169f7fe953a243bcba1350180e0/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/869aa169f7fe953a243bcba1350180e0/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/879f687f8dbfef8959c30aa641e8d622/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/879f687f8dbfef8959c30aa641e8d622/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/93ca1284554ff18ff6d54d494413f3cd/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/93ca1284554ff18ff6d54d494413f3cd/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/e5a555bde227d9c8fcf1de1b70fee9b6/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/e5a555bde227d9c8fcf1de1b70fee9b6/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/3f0314d8f63a2538794aed7895dd5c4e/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/3f0314d8f63a2538794aed7895dd5c4e/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/9c9381bf98159ad30fa2dd7dc746e19c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/9c9381bf98159ad30fa2dd7dc746e19c/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7c5fe2333fbc3c35b9feb774e3e16301/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7c5fe2333fbc3c35b9feb774e3e16301/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0b72c605c4fee554f0c9c8d1f0efcea3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0b72c605c4fee554f0c9c8d1f0efcea3/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0985ace0dd51851e226f45e750e9491b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/0985ace0dd51851e226f45e750e9491b/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f0f9ace3c41ab5edea1d9348401b330e/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/f0f9ace3c41ab5edea1d9348401b330e/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/5fdf58065a4ab9b34ab83a4d21db797b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/5fdf58065a4ab9b34ab83a4d21db797b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/9004e2d027c59faec94aa9a985fb81dd/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/vipul/.gradle/caches/8.9/transforms/9004e2d027c59faec94aa9a985fb81dd/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/e5f03fdfadc6cde325a1d649e63afa86/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/e5f03fdfadc6cde325a1d649e63afa86/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/ff1c1546e400c35d2ebbb35dfcbc679a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/ff1c1546e400c35d2ebbb35dfcbc679a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/cec8405d63acb8ac4c8c04c78fd280de/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/cec8405d63acb8ac4c8c04c78fd280de/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/vipul/.gradle/caches/8.9/transforms/3b6ef93f74d94ab9d7dda310a49e3ebd/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/vipul/.gradle/caches/8.9/transforms/3b6ef93f74d94ab9d7dda310a49e3ebd/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/d3f5ab6f04c4c3d297f5ec4a9cbe7a36/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/d3f5ab6f04c4c3d297f5ec4a9cbe7a36/transformed/lifecycle-livedata-core-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/1941643f6898b51bbcefaec57159c2f1/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/1941643f6898b51bbcefaec57159c2f1/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/c4021f9c38d528c6c78157d14835ca87/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/c4021f9c38d528c6c78157d14835ca87/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/205fc393344454deea6bc034895fcd1f/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/205fc393344454deea6bc034895fcd1f/transformed/lifecycle-viewmodel-savedstate-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/fa2b61c678e69aa9702a98e7dd56f928/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/fa2b61c678e69aa9702a98e7dd56f928/transformed/lifecycle-viewmodel-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/ae5430178a5b9071caa3c982f9f59b89/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/ae5430178a5b9071caa3c982f9f59b89/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/5dac76e88ad2a4b52a4e3e06697497d5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/5dac76e88ad2a4b52a4e3e06697497d5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/0fb458e926368c2f825cb119dee503e1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/0fb458e926368c2f825cb119dee503e1/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/535d17b13ea1aba387767582b91a9d72/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/535d17b13ea1aba387767582b91a9d72/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/c84367c3ddb417153bbd3220bccf933c/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/c84367c3ddb417153bbd3220bccf933c/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/613606b8e3a8b9f0a86fa0bc6cdaeed3/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/vipul/.gradle/caches/8.9/transforms/613606b8e3a8b9f0a86fa0bc6cdaeed3/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/16e8284e17c0e32d67ab02c52f7c0742/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/16e8284e17c0e32d67ab02c52f7c0742/transformed/library-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/d19ae67224b6d77e19dfb9bf60cb65ad/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/d19ae67224b6d77e19dfb9bf60cb65ad/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7ed28224003a807ea87dd55580dfbc30/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/7ed28224003a807ea87dd55580dfbc30/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/vipul/.gradle/caches/8.9/transforms/f8ae083cf75659c286bfac21024cb2d4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/vipul/.gradle/caches/8.9/transforms/f8ae083cf75659c286bfac21024cb2d4/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vipul/.gradle/caches/8.9/transforms/2bef50b6d469034db2bd549e44fb7f88/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/vipul/.gradle/caches/8.9/transforms/2bef50b6d469034db2bd549e44fb7f88/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/5f786d0c4305883c0e9f1f86f8ce488e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/5f786d0c4305883c0e9f1f86f8ce488e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/7550f67fd388ff107737f7263812bfdf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/7550f67fd388ff107737f7263812bfdf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/AndroidManifest.xml
+provider#org.jetbrains.compose.resources.AndroidContextProvider
+ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:8:9-13:20
+	android:enabled
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:11:13-35
+	android:authorities
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:10:13-84
+	android:exported
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/AndroidManifest.xml:9:13-82
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.1] /home/vipul/.gradle/caches/8.9/transforms/1c5d7705765cc7068ee47fe6cff87c68/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.vipul.kmp.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.vipul.kmp.news.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.5] /home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
