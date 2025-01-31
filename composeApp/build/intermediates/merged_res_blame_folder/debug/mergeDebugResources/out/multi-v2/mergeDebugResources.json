@@ -1534,6 +1534,23 @@
                     }
                 },
                 {
+                    "source": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "49",
+                        "endOffsets": "61"
+                    },
+                    "to": {
+                        "startLines": "102",
+                        "startColumns": "4",
+                        "startOffsets": "6212",
+                        "endColumns": "49",
+                        "endOffsets": "6257"
+                    }
+                },
+                {
                     "source": "/home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -1618,23 +1635,6 @@
                         "startOffsets": "6129",
                         "endColumns": "82",
                         "endOffsets": "6207"
-                    }
-                },
-                {
-                    "source": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/src/androidMain/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "49",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "102",
-                        "startColumns": "4",
-                        "startOffsets": "6212",
-                        "endColumns": "49",
-                        "endOffsets": "6257"
                     }
                 },
                 {
