@@ -60,7 +60,11 @@
           "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel",
           "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose",
           "org.jetbrains.compose.material3:material3",
-          "org.jetbrains.androidx.navigation:navigation-compose"
+          "org.jetbrains.androidx.navigation:navigation-compose",
+          "io.coil-kt.coil3:coil-compose-core",
+          "io.coil-kt.coil3:coil-compose",
+          "io.coil-kt.coil3:coil",
+          "io.coil-kt.coil3:coil-network-ktor3"
         ],
         "sourceSetCInteropMetadataDirectory": "appleMain-cinterop",
         "binaryLayout": "klib",
@@ -90,7 +94,11 @@
           "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel",
           "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose",
           "org.jetbrains.compose.material3:material3",
-          "org.jetbrains.androidx.navigation:navigation-compose"
+          "org.jetbrains.androidx.navigation:navigation-compose",
+          "io.coil-kt.coil3:coil-compose-core",
+          "io.coil-kt.coil3:coil-compose",
+          "io.coil-kt.coil3:coil",
+          "io.coil-kt.coil3:coil-network-ktor3"
         ],
         "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
         "binaryLayout": "klib",
@@ -112,7 +120,11 @@
           "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel",
           "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose",
           "org.jetbrains.compose.material3:material3",
-          "org.jetbrains.androidx.navigation:navigation-compose"
+          "org.jetbrains.androidx.navigation:navigation-compose",
+          "io.coil-kt.coil3:coil-compose-core",
+          "io.coil-kt.coil3:coil-compose",
+          "io.coil-kt.coil3:coil",
+          "io.coil-kt.coil3:coil-network-ktor3"
         ],
         "sourceSetCInteropMetadataDirectory": "nativeMain-cinterop",
         "binaryLayout": "klib",

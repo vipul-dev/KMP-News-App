@@ -1,207 +1,317 @@
 [
   {
     "moduleId": "module org.jetbrains.kotlin:kotlin-stdlib:2.1.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlin-kotlin-stdlib-2.1.0-commonMain-ITmP6A.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlin-kotlin-stdlib-2.1.0-commonMain-ITmP6A.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.runtime:runtime:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-1.7.0-commonMain-9pDeVQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-1.7.0-commonMain-9pDeVQ.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.foundation:foundation:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-1.7.0-commonMain-Z4pWpg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-1.7.0-commonMain-Z4pWpg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.material:material:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-1.7.0-commonMain-G6kTFA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-1.7.0-commonMain-G6kTFA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-1.7.0-commonMain-byxhLA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-1.7.0-commonMain-byxhLA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.components:components-resources:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-resources-1.7.0-blockingMain-Tn2Qyw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-resources-1.7.0-blockingMain-Tn2Qyw.klib",
     "sourceSetName": "blockingMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.components:components-resources:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-resources-1.7.0-commonMain-Tn2Qyw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-resources-1.7.0-commonMain-Tn2Qyw.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.components:components-ui-tooling-preview:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-ui-tooling-preview-1.7.0-commonMain--i3iSw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.components-components-ui-tooling-preview-1.7.0-commonMain--i3iSw.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel:2.8.4",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.4-commonMain-I44vqw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.4-commonMain-I44vqw.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose:2.8.4",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.4-commonMain-eB6IaQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.4-commonMain-eB6IaQ.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.material3:material3:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material3-material3-1.7.0-commonMain-HpF0Ww.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material3-material3-1.7.0-commonMain-HpF0Ww.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.navigation:navigation-compose:2.8.0-alpha02",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-compose-2.8.0-alpha02-commonMain-Ynxpsg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-compose-2.8.0-alpha02-commonMain-Ynxpsg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-compose-core:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-compose-core-3.0.0-rc02-commonMain-oC6XNA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-compose:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-compose-3.0.0-rc02-commonMain-79N8bA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-3.0.0-rc02-commonMain-sISrLQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-network-ktor3:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-network-ktor3-3.0.0-rc02-commonMain-PuhmSg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.animation:animation:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-1.7.0-commonMain-TojQLQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-1.7.0-commonMain-TojQLQ.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.animation:animation-core:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-core-1.7.0-commonMain-KAIxIA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-core-1.7.0-commonMain-KAIxIA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.material:material-icons-core:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-icons-core-1.7.0-commonMain-OY6u5w.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-icons-core-1.7.0-commonMain-OY6u5w.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.material:material-ripple:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-ripple-1.7.0-commonMain-hYj_-Q.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.material-material-ripple-1.7.0-commonMain-hYj_-Q.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui-text:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-text-1.7.0-commonMain-22Ga_g.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-text-1.7.0-commonMain-22Ga_g.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.runtime:runtime-saveable:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-saveable-1.7.0-commonMain-dToAUQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.runtime-runtime-saveable-1.7.0-commonMain-dToAUQ.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui-geometry:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-geometry-1.7.0-commonMain-CwQ9Eg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-geometry-1.7.0-commonMain-CwQ9Eg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui-graphics:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-graphics-1.7.0-commonMain-nWZcXg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-graphics-1.7.0-commonMain-nWZcXg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui-unit:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-unit-1.7.0-commonMain-pR3KgA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-unit-1.7.0-commonMain-pR3KgA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.ui:ui-util:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-util-1.7.0-commonMain-3-t5Ow.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.ui-ui-util-1.7.0-commonMain-3-t5Ow.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.annotation-internal:annotation:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.annotation-internal-annotation-1.7.0-commonMain-BD0V2w.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.annotation-internal-annotation-1.7.0-commonMain-BD0V2w.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.1-concurrentMain-KUhp4Q.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.1-concurrentMain-KUhp4Q.klib",
     "sourceSetName": "concurrentMain"
   },
   {
     "moduleId": "module org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.1-commonMain-KUhp4Q.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.10.1-commonMain-KUhp4Q.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-runtime:2.8.4",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.4-commonMain-P_jWsA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.4-commonMain-P_jWsA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.core:core-bundle:1.0.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.core-core-bundle-1.0.0-beta01-jbMain-cb_PMQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.core-core-bundle-1.0.0-beta01-jbMain-cb_PMQ.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.core:core-bundle:1.0.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.core-core-bundle-1.0.0-beta01-commonMain-cb_PMQ.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.core-core-bundle-1.0.0-beta01-commonMain-cb_PMQ.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-common:2.8.4",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.4-commonMain-FPlmfg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.4-commonMain-FPlmfg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-beta01-jbMain-207ecg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-beta01-jbMain-207ecg.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-beta01-commonMain-207ecg.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-beta01-commonMain-207ecg.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-beta01-jbMain-KnkPTw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-beta01-jbMain-KnkPTw.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-beta01-commonMain-KnkPTw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-beta01-commonMain-KnkPTw.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-jbMain-ehBiaA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-jbMain-ehBiaA.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.navigation:navigation-common:2.8.0-alpha02",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-commonMain-ehBiaA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-common-2.8.0-alpha02-commonMain-ehBiaA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.navigation:navigation-runtime:2.8.0-alpha02",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-jbMain-GH9lnw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-jbMain-GH9lnw.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.navigation:navigation-runtime:2.8.0-alpha02",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-commonMain-GH9lnw.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.navigation-navigation-runtime-2.8.0-alpha02-commonMain-GH9lnw.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.androidx.savedstate:savedstate:1.2.0-beta01",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.savedstate-savedstate-1.2.0-beta01-commonMain-xMdm-g.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.androidx.savedstate-savedstate-1.2.0-beta01-commonMain-xMdm-g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-core:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-core-3.0.0-rc02-nonJsCommonMain-VDyveQ.klib",
+    "sourceSetName": "nonJsCommonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-core:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-core-3.0.0-rc02-commonMain-VDyveQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.coil-kt.coil3:coil-network-core:3.0.0-rc02",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.coil-kt.coil3-coil-network-core-3.0.0-rc02-commonMain-d_IOrA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-client-core:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-client-core-3.0.0-commonMain-86YTPA.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-layout-1.7.0-commonMain-Nkt8ew.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-layout-1.7.0-commonMain-Nkt8ew.klib",
     "sourceSetName": "commonMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.collection-internal-collection-1.7.0-jbMain-5apXgA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.collection-internal-collection-1.7.0-jbMain-5apXgA.klib",
     "sourceSetName": "jbMain"
   },
   {
     "moduleId": "module org.jetbrains.compose.collection-internal:collection:1.7.0",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.collection-internal-collection-1.7.0-commonMain-5apXgA.klib",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.collection-internal-collection-1.7.0-commonMain-5apXgA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module com.squareup.okio:okio:3.9.1",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/com.squareup.okio-okio-3.9.1-systemFileSystemMain-ha3VpQ.klib",
+    "sourceSetName": "systemFileSystemMain"
+  },
+  {
+    "moduleId": "module com.squareup.okio:okio:3.9.1",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/com.squareup.okio-okio-3.9.1-zlibMain-ha3VpQ.klib",
+    "sourceSetName": "zlibMain"
+  },
+  {
+    "moduleId": "module com.squareup.okio:okio:3.9.1",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/com.squareup.okio-okio-3.9.1-commonMain-ha3VpQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-http:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-http-3.0.0-commonMain-s0lQng.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-events:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-events-3.0.0-commonMain-um6hkw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websocket-serialization:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websocket-serialization-3.0.0-commonMain-kjocfQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-sse:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-sse-3.0.0-commonMain-GYvR-g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-utils:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-utils-3.0.0-commonMain-j8VvdQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-serialization-core-1.7.3-commonMain-s2qClw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-serialization:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-serialization-3.0.0-commonMain-tkHGZA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-io:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-io-3.0.0-commonMain-2pQ2MQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module io.ktor:ktor-websockets:3.0.0",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websockets-3.0.0-commonMain-tSaR_g.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-core:0.5.4",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-io-core-0.5.4-commonMain-VZyyzw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module org.jetbrains.kotlinx:kotlinx-io-bytestring:0.5.4",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.kotlinx-kotlinx-io-bytestring-0.5.4-commonMain-ptgxIQ.klib",
     "sourceSetName": "commonMain"
   }
 ]

@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/home/vipul/AndroidStudioProjects/KMP-News-APP/composeApp"
+    dir="/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp"
     name=":composeApp"
     type="APP"
     maven="KMP-News-APP:composeApp:unspecified"

@@ -10,3 +10,7 @@ sealed class MainScreenRoute(var route:String){
     object Search:MainScreenRoute("search")
     object Bookmark:MainScreenRoute("bookmark")
 }
+
+sealed class SettingScreenRoute(var route:String){
+    object Setting:SettingScreenRoute("setting")
+}

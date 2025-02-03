@@ -10,16 +10,20 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.text.font.FontWeight
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.vipul.kmp.news.ui.navigation.NewsBottomNavigationBar
+import com.vipul.kmp.news.ui.navigation.SettingScreenRoute
 import com.vipul.kmp.news.ui.navigation.graphs.MainNavGraph
 import com.vipul.kmp.news.utils.bottomNavigationList
 import kmp_news_app.composeapp.generated.resources.Res
@@ -35,7 +39,13 @@ fun MainScreen(
     val homeNavController = rememberNavController()
     val navBackStackEntry by homeNavController.currentBackStackEntryAsState()
 
-    val currentRoute by rememberSaveable(navBackStackEntry) { mutableStateOf(navBackStackEntry?.destination?.route) }
+    var previousRoute by rememberSaveable {
+        mutableStateOf(navBackStackEntry?.destination?.route)
+    }
+
+    val currentRoute by remember(navBackStackEntry) {
+        derivedStateOf { navBackStackEntry?.destination?.route }
+    }
 
     val topBarTitle by remember(currentRoute) {
         derivedStateOf {
@@ -45,6 +55,34 @@ fun MainScreen(
                 }].title
             } else {
                 bottomNavigationList[0].title
+            }
+        }
+    }
+    DisposableEffect(Unit) {
+        previousRoute = currentRoute
+        println("previous route => $previousRoute")
+        onDispose {
+
+        }
+    }
+    LaunchedEffect(Unit){
+        if (previousRoute != null){
+            homeNavController.navigate(previousRoute!!) {
+
+                // Pop up to the start destination of the graph to
+                // avoid building up a large stack of destinations
+                // on the back stack as users select items
+                homeNavController.graph.startDestinationRoute?.let {
+                    // Pop up to the start destination, clearing the back stack
+                    popUpTo(it) {
+                        // Save the state of popped destinations
+                        saveState = true
+                    }
+                    // Configure navigation to avoid multiple instances of the same destination
+                    launchSingleTop = true
+                    // Restore state when re-selecting a previously selected item
+                    restoreState = true
+                }
             }
         }
     }
@@ -60,6 +98,7 @@ fun MainScreen(
             },
             actions = {
                 IconButton(onClick = {
+                    rootNavController.navigate(SettingScreenRoute.Setting.route)
                 }) {
                     Icon(
                         imageVector = Icons.Filled.Settings,

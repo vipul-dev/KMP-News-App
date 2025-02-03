@@ -26,6 +26,6 @@
       applicationId="com.vipul.kmp.news"
       generatedSourceFolders="build/generated/ap_generated_sources/release/out"
       generatedResourceFolders="build/generated/res/resValues/release"
-      desugaredMethodsFiles="/home/vipul/.gradle/caches/8.9/transforms/6e08277b198fc7199f3683e35a12ec72/transformed/D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="/home/vipul/.gradle/caches/8.9/transforms/276566623e5c4b26f10287561bd141c4/transformed/D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

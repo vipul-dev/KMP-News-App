@@ -1,9 +1,9 @@
 <libraries>
   <library
       name="androidx.activity:activity:1.9.3@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/1a1453c01b02f7844d132086adb9a0f2/transformed/activity-1.9.3/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/63b07696af90067cc3c4de28ddae6b9b/transformed/activity-1.9.3/jars/classes.jar"
       resolved="androidx.activity:activity:1.9.3"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/1a1453c01b02f7844d132086adb9a0f2/transformed/activity-1.9.3"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/63b07696af90067cc3c4de28ddae6b9b/transformed/activity-1.9.3"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -14,9 +14,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-common:2.8.0-alpha05@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/b80233be47e47e21b2b5779604e3f7ed/transformed/navigation-common-2.8.0-alpha05/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/bcab3c9c56d07870949edf9356af18d8/transformed/navigation-common-2.8.0-alpha05/jars/classes.jar"
       resolved="androidx.navigation:navigation-common:2.8.0-alpha05"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/b80233be47e47e21b2b5779604e3f7ed/transformed/navigation-common-2.8.0-alpha05"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/bcab3c9c56d07870949edf9356af18d8/transformed/navigation-common-2.8.0-alpha05"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -27,9 +27,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-common-ktx:2.8.0-alpha05@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/b3a32185bd1db6cb723a77b59ee69d85/transformed/navigation-common-ktx-2.8.0-alpha05/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/4abb95af0bb675c8da1b8f88d657c88b/transformed/navigation-common-ktx-2.8.0-alpha05/jars/classes.jar"
       resolved="androidx.navigation:navigation-common-ktx:2.8.0-alpha05"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/b3a32185bd1db6cb723a77b59ee69d85/transformed/navigation-common-ktx-2.8.0-alpha05"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/4abb95af0bb675c8da1b8f88d657c88b/transformed/navigation-common-ktx-2.8.0-alpha05"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -40,9 +40,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-compose:2.8.0-alpha05@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/bc4d694c6a42c79004dbc342a41ee659/transformed/navigation-compose-2.8.0-alpha05/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/d887a9034646666abd5519cacacf7fdb/transformed/navigation-compose-2.8.0-alpha05/jars/classes.jar"
       resolved="androidx.navigation:navigation-compose:2.8.0-alpha05"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/bc4d694c6a42c79004dbc342a41ee659/transformed/navigation-compose-2.8.0-alpha05"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/d887a9034646666abd5519cacacf7fdb/transformed/navigation-compose-2.8.0-alpha05"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -53,9 +53,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-runtime-ktx:2.8.0-alpha05@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/2ad8087ae9f41738e24c0d8a80ee230f/transformed/navigation-runtime-ktx-2.8.0-alpha05/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/e68c4fd193f8a867674b24554cb931f8/transformed/navigation-runtime-ktx-2.8.0-alpha05/jars/classes.jar"
       resolved="androidx.navigation:navigation-runtime-ktx:2.8.0-alpha05"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/2ad8087ae9f41738e24c0d8a80ee230f/transformed/navigation-runtime-ktx-2.8.0-alpha05"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/e68c4fd193f8a867674b24554cb931f8/transformed/navigation-runtime-ktx-2.8.0-alpha05"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -66,9 +66,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.navigation:navigation-runtime:2.8.0-alpha05@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/9bbcfebcbadd73d79592ae27a1637be9/transformed/navigation-runtime-2.8.0-alpha05/jars/classes.jar"
       resolved="androidx.navigation:navigation-runtime:2.8.0-alpha05"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/ab00df80c4e2b716a966266e65a6c02b/transformed/navigation-runtime-2.8.0-alpha05"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/9bbcfebcbadd73d79592ae27a1637be9/transformed/navigation-runtime-2.8.0-alpha05"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -79,9 +79,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity-ktx:1.9.3@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/c84367c3ddb417153bbd3220bccf933c/transformed/activity-ktx-1.9.3/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/794fff95caa4ae5d6764bec253425d3c/transformed/activity-ktx-1.9.3/jars/classes.jar"
       resolved="androidx.activity:activity-ktx:1.9.3"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/c84367c3ddb417153bbd3220bccf933c/transformed/activity-ktx-1.9.3"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/794fff95caa4ae5d6764bec253425d3c/transformed/activity-ktx-1.9.3"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -92,9 +92,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.activity:activity-compose:1.9.3@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/613606b8e3a8b9f0a86fa0bc6cdaeed3/transformed/activity-compose-1.9.3/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/ccf816ccd70ce0c8721ed670e5db1df6/transformed/activity-compose-1.9.3/jars/classes.jar"
       resolved="androidx.activity:activity-compose:1.9.3"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/613606b8e3a8b9f0a86fa0bc6cdaeed3/transformed/activity-compose-1.9.3"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/ccf816ccd70ce0c8721ed670e5db1df6/transformed/activity-compose-1.9.3"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -104,10 +104,31 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="io.ktor:ktor-client-okhttp-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-okhttp-jvm/3.0.0/aa7b190b6797a33b245454b95de5f200605be0bc/ktor-client-okhttp-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-client-okhttp-jvm:3.0.0"/>
+  <library
+      name="io.coil-kt.coil3:coil-network-ktor3-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/13dbc43237f968895fe01c1e423aa642/transformed/coil-network-ktor3-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-network-ktor3-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/13dbc43237f968895fe01c1e423aa642/transformed/coil-network-ktor3-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.ktor:ktor-client-core-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/3.0.0/cd59d98760bb6dc85786c0c2202a48a9e1e7746/ktor-client-core-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-client-core-jvm:3.0.0"/>
+  <library
       name="org.jetbrains.compose.components:components-resources-android:1.7.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/4f16881bc21764881330862651ae3e3c/transformed/library-release/jars/classes.jar"
       resolved="org.jetbrains.compose.components:components-resources-android:1.7.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/1e4a14c7aab859a1297d85f4b6d74cb4/transformed/library-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/4f16881bc21764881330862651ae3e3c/transformed/library-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -118,9 +139,48 @@
       proguardRules="proguard.txt"/>
   <library
       name="org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/16e8284e17c0e32d67ab02c52f7c0742/transformed/library-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/06a8f80128b36b8ac87b0eefacb00ace/transformed/library-release/jars/classes.jar"
       resolved="org.jetbrains.compose.components:components-ui-tooling-preview-android:1.7.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/16e8284e17c0e32d67ab02c52f7c0742/transformed/library-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/06a8f80128b36b8ac87b0eefacb00ace/transformed/library-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.coil-kt.coil3:coil-compose-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/8ebe03cb3956e3e6ca3d237ee083cbf5/transformed/coil-compose-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-compose-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/8ebe03cb3956e3e6ca3d237ee083cbf5/transformed/coil-compose-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.coil-kt.coil3:coil-compose-core-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/e9da42ffb43e170874037aaf143a1882/transformed/coil-compose-core-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-compose-core-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/e9da42ffb43e170874037aaf143a1882/transformed/coil-compose-core-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.coil-kt.coil3:coil-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/b843d844e76e3d193295e0f37bc2aa41/transformed/coil-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/b843d844e76e3d193295e0f37bc2aa41/transformed/coil-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -131,9 +191,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/ee67ca9b07614ebc412f0c6e5e5c098e/transformed/material-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/5731786169dbc4edde379ca1858a10c7/transformed/material-release/jars/classes.jar"
       resolved="androidx.compose.material:material-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/ee67ca9b07614ebc412f0c6e5e5c098e/transformed/material-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/5731786169dbc4edde379ca1858a10c7/transformed/material-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -144,9 +204,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material3:material3-android:1.3.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/5043e72c9daf6e1e304759428a7ffa85/transformed/material3-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/c9de12fc6ed35a4d424ee5e8153e510a/transformed/material3-release/jars/classes.jar"
       resolved="androidx.compose.material3:material3-android:1.3.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/5043e72c9daf6e1e304759428a7ffa85/transformed/material3-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/c9de12fc6ed35a4d424ee5e8153e510a/transformed/material3-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -157,9 +217,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-ripple-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/5af8d6707bf91c9148a0da9ff80e47c7/transformed/material-ripple-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/a9b1f2305a9f19adacd2eb4ec1c87ed1/transformed/material-ripple-release/jars/classes.jar"
       resolved="androidx.compose.material:material-ripple-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/5af8d6707bf91c9148a0da9ff80e47c7/transformed/material-ripple-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/a9b1f2305a9f19adacd2eb4ec1c87ed1/transformed/material-ripple-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -170,9 +230,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.foundation:foundation-layout-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/869aa169f7fe953a243bcba1350180e0/transformed/foundation-layout-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/1ae5db33b7f0fef99ed8ace41f3e7266/transformed/foundation-layout-release/jars/classes.jar"
       resolved="androidx.compose.foundation:foundation-layout-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/869aa169f7fe953a243bcba1350180e0/transformed/foundation-layout-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/1ae5db33b7f0fef99ed8ace41f3e7266/transformed/foundation-layout-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -183,9 +243,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.foundation:foundation-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/879f687f8dbfef8959c30aa641e8d622/transformed/foundation-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/d21480579b6431c3fad52cbe63ef5883/transformed/foundation-release/jars/classes.jar"
       resolved="androidx.compose.foundation:foundation-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/879f687f8dbfef8959c30aa641e8d622/transformed/foundation-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/d21480579b6431c3fad52cbe63ef5883/transformed/foundation-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -196,9 +256,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.animation:animation-core-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/f11d82a03e7afe119f70fe36843c5cd8/transformed/animation-core-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/01ecec9b3ea5911f8cfe3a70c8a2591d/transformed/animation-core-release/jars/classes.jar"
       resolved="androidx.compose.animation:animation-core-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/f11d82a03e7afe119f70fe36843c5cd8/transformed/animation-core-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/01ecec9b3ea5911f8cfe3a70c8a2591d/transformed/animation-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -209,9 +269,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.animation:animation-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/fd755574dae284ed0fcf58d591a0cef2/transformed/animation-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/34be66b5e0723848334aecd6dc720ed2/transformed/animation-release/jars/classes.jar"
       resolved="androidx.compose.animation:animation-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/fd755574dae284ed0fcf58d591a0cef2/transformed/animation-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/34be66b5e0723848334aecd6dc720ed2/transformed/animation-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -222,9 +282,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-util-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/7c5fe2333fbc3c35b9feb774e3e16301/transformed/ui-util-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/f433dc332201df8d58650566ef907549/transformed/ui-util-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-util-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/7c5fe2333fbc3c35b9feb774e3e16301/transformed/ui-util-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/f433dc332201df8d58650566ef907549/transformed/ui-util-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -235,9 +295,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-unit-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/e5a555bde227d9c8fcf1de1b70fee9b6/transformed/ui-unit-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/705f1e3431acbd6468558774918033ec/transformed/ui-unit-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-unit-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/e5a555bde227d9c8fcf1de1b70fee9b6/transformed/ui-unit-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/705f1e3431acbd6468558774918033ec/transformed/ui-unit-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -248,9 +308,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-graphics-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/3f0314d8f63a2538794aed7895dd5c4e/transformed/ui-graphics-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/c81a643b5a4c5b166e5e276007b97cb7/transformed/ui-graphics-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-graphics-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/3f0314d8f63a2538794aed7895dd5c4e/transformed/ui-graphics-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/c81a643b5a4c5b166e5e276007b97cb7/transformed/ui-graphics-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -261,9 +321,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-geometry-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/9c9381bf98159ad30fa2dd7dc746e19c/transformed/ui-geometry-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/4344f34a04dfce6a6f9157c418e8dc66/transformed/ui-geometry-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-geometry-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/9c9381bf98159ad30fa2dd7dc746e19c/transformed/ui-geometry-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/4344f34a04dfce6a6f9157c418e8dc66/transformed/ui-geometry-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -274,9 +334,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-text-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/0b72c605c4fee554f0c9c8d1f0efcea3/transformed/ui-text-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/223a8ba62afc7c541e16bc907cc430fc/transformed/ui-text-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-text-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/0b72c605c4fee554f0c9c8d1f0efcea3/transformed/ui-text-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/223a8ba62afc7c541e16bc907cc430fc/transformed/ui-text-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -287,9 +347,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-tooling-preview-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/0985ace0dd51851e226f45e750e9491b/transformed/ui-tooling-preview-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/81894a3e05dbd931c472f84355badf02/transformed/ui-tooling-preview-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-tooling-preview-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/0985ace0dd51851e226f45e750e9491b/transformed/ui-tooling-preview-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/81894a3e05dbd931c472f84355badf02/transformed/ui-tooling-preview-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -300,9 +360,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.material:material-icons-core-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/f0f9ace3c41ab5edea1d9348401b330e/transformed/material-icons-core-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/301055a66c7457417afbfcc4018b4757/transformed/material-icons-core-release/jars/classes.jar"
       resolved="androidx.compose.material:material-icons-core-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/f0f9ace3c41ab5edea1d9348401b330e/transformed/material-icons-core-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/301055a66c7457417afbfcc4018b4757/transformed/material-icons-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -313,9 +373,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core:1.13.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/0ee956f69b3ceaa6a18ca8e001876e2e/transformed/core-1.13.1/jars/classes.jar"
       resolved="androidx.core:core:1.13.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/bcd95e8d272ff7ce12ce138a13a6a07e/transformed/core-1.13.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/0ee956f69b3ceaa6a18ca8e001876e2e/transformed/core-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -325,14 +385,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-common-jvm:2.8.5@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-jvm/2.8.5/7174a594afb73a9ad9ac9074ce78b94af3cc52a7/lifecycle-common-jvm-2.8.5.jar"
-      resolved="androidx.lifecycle:lifecycle-common-jvm:2.8.5"/>
-  <library
-      name="androidx.lifecycle:lifecycle-livedata-core:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/d3f5ab6f04c4c3d297f5ec4a9cbe7a36/transformed/lifecycle-livedata-core-2.8.5/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-livedata-core:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/d3f5ab6f04c4c3d297f5ec4a9cbe7a36/transformed/lifecycle-livedata-core-2.8.5"
+      name="io.coil-kt.coil3:coil-network-core-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/836e0e0c93ec2dd27399df3955c5427a/transformed/coil-network-core-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-network-core-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/836e0e0c93ec2dd27399df3955c5427a/transformed/coil-network-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -342,10 +398,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-runtime-android:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/c4021f9c38d528c6c78157d14835ca87/transformed/lifecycle-runtime-release/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime-android:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/c4021f9c38d528c6c78157d14835ca87/transformed/lifecycle-runtime-release"
+      name="io.coil-kt.coil3:coil-core-android:3.0.0-rc02@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/94449eb6c1d3ebaa12fe0a2f6df4ba89/transformed/coil-core-release/jars/classes.jar"
+      resolved="io.coil-kt.coil3:coil-core-android:3.0.0-rc02"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/94449eb6c1d3ebaa12fe0a2f6df4ba89/transformed/coil-core-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -355,10 +411,14 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/1941643f6898b51bbcefaec57159c2f1/transformed/lifecycle-runtime-ktx-release/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/1941643f6898b51bbcefaec57159c2f1/transformed/lifecycle-runtime-ktx-release"
+      name="androidx.lifecycle:lifecycle-common-jvm:2.8.6@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-jvm/2.8.6/7174a594afb73a9ad9ac9074ce78b94af3cc52a7/lifecycle-common-jvm-2.8.6.jar"
+      resolved="androidx.lifecycle:lifecycle-common-jvm:2.8.6"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata-core:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/317f98bcc2e4628fc0be00e8b332b298/transformed/lifecycle-livedata-core-2.8.6/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/317f98bcc2e4628fc0be00e8b332b298/transformed/lifecycle-livedata-core-2.8.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -368,10 +428,36 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/0fb458e926368c2f825cb119dee503e1/transformed/lifecycle-viewmodel-compose-release/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/0fb458e926368c2f825cb119dee503e1/transformed/lifecycle-viewmodel-compose-release"
+      name="androidx.lifecycle:lifecycle-runtime-android:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/9a20c9724d87cbb578920b9fdf4c49b1/transformed/lifecycle-runtime-release/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-android:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/9a20c9724d87cbb578920b9fdf4c49b1/transformed/lifecycle-runtime-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/ad41cc07154d07aef6bdfb9cde74e54e/transformed/lifecycle-runtime-ktx-release/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/ad41cc07154d07aef6bdfb9cde74e54e/transformed/lifecycle-runtime-ktx-release"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/c1fb535ac0901daa98216c6643a73f9c/transformed/lifecycle-viewmodel-compose-release/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/c1fb535ac0901daa98216c6643a73f9c/transformed/lifecycle-viewmodel-compose-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -382,9 +468,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.ui:ui-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/535d17b13ea1aba387767582b91a9d72/transformed/ui-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/92f8cb9cb6dd2976fe22b22eb23603ad/transformed/ui-release/jars/classes.jar"
       resolved="androidx.compose.ui:ui-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/535d17b13ea1aba387767582b91a9d72/transformed/ui-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/92f8cb9cb6dd2976fe22b22eb23603ad/transformed/ui-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -394,10 +480,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/ae5430178a5b9071caa3c982f9f59b89/transformed/lifecycle-runtime-compose-release/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/ae5430178a5b9071caa3c982f9f59b89/transformed/lifecycle-runtime-compose-release"
+      name="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/a0d527d40778fd28e4f3f3281c859569/transformed/lifecycle-runtime-compose-release/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime-compose-android:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/a0d527d40778fd28e4f3f3281c859569/transformed/lifecycle-runtime-compose-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -407,10 +493,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel-android:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/5dac76e88ad2a4b52a4e3e06697497d5/transformed/lifecycle-viewmodel-release/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel-android:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/5dac76e88ad2a4b52a4e3e06697497d5/transformed/lifecycle-viewmodel-release"
+      name="androidx.lifecycle:lifecycle-viewmodel-android:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/5e7984248f250f0273249ae5c954f14e/transformed/lifecycle-viewmodel-release/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-android:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/5e7984248f250f0273249ae5c954f14e/transformed/lifecycle-viewmodel-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -420,10 +506,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/fa2b61c678e69aa9702a98e7dd56f928/transformed/lifecycle-viewmodel-ktx-2.8.5/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/fa2b61c678e69aa9702a98e7dd56f928/transformed/lifecycle-viewmodel-ktx-2.8.5"
+      name="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/46c04872738eab1a44ceda93a647a3b2/transformed/lifecycle-viewmodel-ktx-2.8.6/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/46c04872738eab1a44ceda93a647a3b2/transformed/lifecycle-viewmodel-ktx-2.8.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -433,10 +519,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/205fc393344454deea6bc034895fcd1f/transformed/lifecycle-viewmodel-savedstate-2.8.5/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/205fc393344454deea6bc034895fcd1f/transformed/lifecycle-viewmodel-savedstate-2.8.5"
+      name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/92c605e4729f493fdefb0101515ad99e/transformed/lifecycle-viewmodel-savedstate-2.8.6/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/92c605e4729f493fdefb0101515ad99e/transformed/lifecycle-viewmodel-savedstate-2.8.6"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -447,9 +533,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.core:core-ktx:1.13.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/cec8405d63acb8ac4c8c04c78fd280de/transformed/core-ktx-1.13.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/fc19f19f6661193c6f0e062cf830cfb3/transformed/core-ktx-1.13.1/jars/classes.jar"
       resolved="androidx.core:core-ktx:1.13.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/cec8405d63acb8ac4c8c04c78fd280de/transformed/core-ktx-1.13.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/fc19f19f6661193c6f0e062cf830cfb3/transformed/core-ktx-1.13.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -460,9 +546,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.savedstate:savedstate:1.2.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/9004e2d027c59faec94aa9a985fb81dd/transformed/savedstate-1.2.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/978aa50c825349c735cb2dedb9f8d0a9/transformed/savedstate-1.2.1/jars/classes.jar"
       resolved="androidx.savedstate:savedstate:1.2.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/9004e2d027c59faec94aa9a985fb81dd/transformed/savedstate-1.2.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/978aa50c825349c735cb2dedb9f8d0a9/transformed/savedstate-1.2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -473,9 +559,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.savedstate:savedstate-ktx:1.2.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/5fdf58065a4ab9b34ab83a4d21db797b/transformed/savedstate-ktx-1.2.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/46901afe2b299ed02b38c27d1d8141c0/transformed/savedstate-ktx-1.2.1/jars/classes.jar"
       resolved="androidx.savedstate:savedstate-ktx:1.2.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/5fdf58065a4ab9b34ab83a4d21db797b/transformed/savedstate-ktx-1.2.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/46901afe2b299ed02b38c27d1d8141c0/transformed/savedstate-ktx-1.2.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -486,9 +572,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.runtime:runtime-saveable-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/d19ae67224b6d77e19dfb9bf60cb65ad/transformed/runtime-saveable-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/c7e068ced516c78099f52d3b57b0ff57/transformed/runtime-saveable-release/jars/classes.jar"
       resolved="androidx.compose.runtime:runtime-saveable-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/d19ae67224b6d77e19dfb9bf60cb65ad/transformed/runtime-saveable-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/c7e068ced516c78099f52d3b57b0ff57/transformed/runtime-saveable-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -499,9 +585,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.compose.runtime:runtime-android:1.7.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/7ed28224003a807ea87dd55580dfbc30/transformed/runtime-release/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/af5ba53242189b9457caf85b99540c9c/transformed/runtime-release/jars/classes.jar"
       resolved="androidx.compose.runtime:runtime-android:1.7.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/7ed28224003a807ea87dd55580dfbc30/transformed/runtime-release"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/af5ba53242189b9457caf85b99540c9c/transformed/runtime-release"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -511,18 +597,50 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.8.0/d908407315c91c64b461674aba3944a912456e8b/kotlinx-coroutines-android-1.8.0.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0"/>
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.9.0/6cf3b8df5a2ce8c6b0dffe55657a827c405ee2fe/kotlinx-coroutines-android-1.9.0.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0"/>
   <library
-      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.8.0/ac1dc37a30a93150b704022f8d895ee1bd3a36b3/kotlinx-coroutines-core-jvm-1.8.0.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0"/>
+      name="io.ktor:ktor-events-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-events-jvm/3.0.0/db8a404c50f76936bba8b550c2225b2498ed8ffc/ktor-events-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-events-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-websocket-serialization-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websocket-serialization-jvm/3.0.0/9820fc595351b80651419615f4c9998bbbacb71a/ktor-websocket-serialization-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-websocket-serialization-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-sse-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-sse-jvm/3.0.0/fc8ef0cfdea8a22f604a0ae7b6308e20bfca466e/ktor-sse-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-sse-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-serialization-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization-jvm/3.0.0/cb0a4390b8b892c0373752f908eda5c5a9769004/ktor-serialization-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-serialization-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-websockets-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websockets-jvm/3.0.0/bade110c2a1187f8d5f11041f535d65209dfbd2/ktor-websockets-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-websockets-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-http-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/3.0.0/1e2de6cad6a9cf772ac376079fb502dc128e6665/ktor-http-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-http-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-utils-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/3.0.0/3bc434db6eea43499f330eb49fd8d562147cd820/ktor-utils-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-utils-jvm:3.0.0"/>
+  <library
+      name="io.ktor:ktor-io-jvm:3.0.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/3.0.0/62c4e08f3d905d06fd4ed32028950fecae7c0ba3/ktor-io-jvm-3.0.0.jar"
+      resolved="io.ktor:ktor-io-jvm:3.0.0"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.9.0/9beade4c1c1569e4f36cbd2c37e02e3e41502601/kotlinx-coroutines-core-jvm-1.9.0.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0"/>
   <library
       name="androidx.annotation:annotation-experimental:1.4.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/f8ae083cf75659c286bfac21024cb2d4/transformed/annotation-experimental-1.4.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/c014c2f5cea6d74009be976cb404b0d0/transformed/annotation-experimental-1.4.1/jars/classes.jar"
       resolved="androidx.annotation:annotation-experimental:1.4.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/f8ae083cf75659c286bfac21024cb2d4/transformed/annotation-experimental-1.4.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/c014c2f5cea6d74009be976cb404b0d0/transformed/annotation-experimental-1.4.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -531,15 +649,31 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="com.squareup.okhttp3:okhttp-sse:4.12.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-sse/4.12.0/eca9c68c54ae7fd18d465beba65d80a44e9667e4/okhttp-sse-4.12.0.jar"
+      resolved="com.squareup.okhttp3:okhttp-sse:4.12.0"/>
+  <library
+      name="com.squareup.okhttp3:okhttp:4.12.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.12.0/2f4525d4a200e97e1b87449c2cd9bd2e25b7e8cd/okhttp-4.12.0.jar"
+      resolved="com.squareup.okhttp3:okhttp:4.12.0"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.21/67f57e154437cd9e6e9cf368394b95814836ff88/kotlin-stdlib-jdk8-1.8.21.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"/>
+  <library
+      name="com.squareup.okio:okio-jvm:3.9.1@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.9.1/79696e3f4ff05d41ba2b3dc68adb5808a2e5dc53/okio-jvm-3.9.1.jar"
+      resolved="com.squareup.okio:okio-jvm:3.9.1"/>
   <library
       name="androidx.arch.core:core-common:2.2.0@jar"
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar"
       resolved="androidx.arch.core:core-common:2.2.0"/>
   <library
       name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/a656ff5cb99d5b39e086dded5a32ba56/transformed/versionedparcelable-1.1.1/jars/classes.jar"
       resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/cb07f568c948ab8edd7fe1384237cbd4/transformed/versionedparcelable-1.1.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/a656ff5cb99d5b39e086dded5a32ba56/transformed/versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -553,9 +687,25 @@
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-jvm/1.4.0/e209fb7bd1183032f55a0408121c6251a81acb49/collection-jvm-1.4.0.jar"
       resolved="androidx.collection:collection-jvm:1.4.0"/>
   <library
-      name="androidx.annotation:annotation-jvm:1.8.0@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.0/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.0.jar"
-      resolved="androidx.annotation:annotation-jvm:1.8.0"/>
+      name="androidx.annotation:annotation-jvm:1.9.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.9.0/3a2db038d9b614a6be762cb37e84bbf2bef69cfa/annotation-jvm-1.9.0.jar"
+      resolved="androidx.annotation:annotation-jvm:1.9.0"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.21/7473b8cd3c0ef9932345baf569bc398e8a717046/kotlin-stdlib-jdk7-1.8.21.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.7.3/1f226780b845ff9206474c05159245d861556249/kotlinx-serialization-core-jvm-1.7.3.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-io-core-jvm:0.5.4@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-core-jvm/0.5.4/16566a36d64d88af421fbee163eeeb6aa6406a43/kotlinx-io-core-jvm-0.5.4.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-io-core-jvm:0.5.4"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-io-bytestring-jvm:0.5.4@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-bytestring-jvm/0.5.4/d02e90094c25c6c4689a9f4359c3dc3543f66958/kotlinx-io-bytestring-jvm-0.5.4.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-io-bytestring-jvm:0.5.4"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib:2.1.0@jar"
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.1.0/85f8b81009cda5890e54ba67d64b5e599c645020/kotlin-stdlib-2.1.0.jar"
@@ -565,10 +715,27 @@
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar"
       resolved="org.jetbrains:annotations:23.0.0"/>
   <library
+      name="org.slf4j:slf4j-api:2.0.16@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar"
+      resolved="org.slf4j:slf4j-api:2.0.16"/>
+  <library
+      name="com.google.accompanist:accompanist-drawablepainter:0.36.0@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/396d59e554a030a8139360a52518285c/transformed/accompanist-drawablepainter-0.36.0/jars/classes.jar"
+      resolved="com.google.accompanist:accompanist-drawablepainter:0.36.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/396d59e554a030a8139360a52518285c/transformed/accompanist-drawablepainter-0.36.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.emoji2:emoji2:1.3.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/jars/classes.jar:/home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0/jars/libs/repackaged.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/4b86df77fb501047514dc0856ac3818a/transformed/emoji2-1.3.0/jars/classes.jar:/home/vipul/.gradle/caches/8.9/transforms/4b86df77fb501047514dc0856ac3818a/transformed/emoji2-1.3.0/jars/libs/repackaged.jar"
       resolved="androidx.emoji2:emoji2:1.3.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/bc8e8e40ee0f0d1f581193d8be8e15c0/transformed/emoji2-1.3.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/4b86df77fb501047514dc0856ac3818a/transformed/emoji2-1.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -579,9 +746,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.autofill:autofill:1.0.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/e5f03fdfadc6cde325a1d649e63afa86/transformed/autofill-1.0.0/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/9589a6285463373a29a9c0a163a3b028/transformed/autofill-1.0.0/jars/classes.jar"
       resolved="androidx.autofill:autofill:1.0.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/e5f03fdfadc6cde325a1d649e63afa86/transformed/autofill-1.0.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/9589a6285463373a29a9c0a163a3b028/transformed/autofill-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -592,9 +759,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.customview:customview-poolingcontainer:1.0.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/ff1c1546e400c35d2ebbb35dfcbc679a/transformed/customview-poolingcontainer-1.0.0/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/e23ec7e02e93c793c36857116cece54c/transformed/customview-poolingcontainer-1.0.0/jars/classes.jar"
       resolved="androidx.customview:customview-poolingcontainer:1.0.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/ff1c1546e400c35d2ebbb35dfcbc679a/transformed/customview-poolingcontainer-1.0.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/e23ec7e02e93c793c36857116cece54c/transformed/customview-poolingcontainer-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -603,11 +770,28 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-process:2.8.6@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/99082ee3218a068e57a7044ee8abe694/transformed/lifecycle-process-2.8.6/jars/classes.jar"
+      resolved="androidx.lifecycle:lifecycle-process:2.8.6"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/99082ee3218a068e57a7044ee8abe694/transformed/lifecycle-process-2.8.6"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common-java8:2.8.6@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.8.6/2ad14aed781c4a73ed4dbb421966d408a0a06686/lifecycle-common-java8-2.8.6.jar"
+      resolved="androidx.lifecycle:lifecycle-common-java8:2.8.6"/>
   <library
       name="androidx.graphics:graphics-path:1.0.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/3b6ef93f74d94ab9d7dda310a49e3ebd/transformed/graphics-path-1.0.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/8453c2e4aaf95cc08af1ffc2f56bab03/transformed/graphics-path-1.0.1/jars/classes.jar"
       resolved="androidx.graphics:graphics-path:1.0.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/3b6ef93f74d94ab9d7dda310a49e3ebd/transformed/graphics-path-1.0.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/8453c2e4aaf95cc08af1ffc2f56bab03/transformed/graphics-path-1.0.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -617,10 +801,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-process:2.8.5@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5/jars/classes.jar"
-      resolved="androidx.lifecycle:lifecycle-process:2.8.5"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/f85bfec11531ceec24d755f99d466a55/transformed/lifecycle-process-2.8.5"
+      name="androidx.appcompat:appcompat-resources:1.7.0@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/a739ee08af158aca2a71467a18004892/transformed/appcompat-resources-1.7.0/jars/classes.jar"
+      resolved="androidx.appcompat:appcompat-resources:1.7.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/a739ee08af158aca2a71467a18004892/transformed/appcompat-resources-1.7.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -630,9 +814,35 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-common-java8:2.8.5@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.8.5/2ad14aed781c4a73ed4dbb421966d408a0a06686/lifecycle-common-java8-2.8.5.jar"
-      resolved="androidx.lifecycle:lifecycle-common-java8:2.8.5"/>
+      name="androidx.vectordrawable:vectordrawable-animated:1.1.0@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/0810df8604ab9d6352acba0b3193a953/transformed/vectordrawable-animated-1.1.0/jars/classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable-animated:1.1.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/0810df8604ab9d6352acba0b3193a953/transformed/vectordrawable-animated-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.vectordrawable:vectordrawable:1.1.0@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/217f6b76ecb518ded406d0820d65c9a2/transformed/vectordrawable-1.1.0/jars/classes.jar"
+      resolved="androidx.vectordrawable:vectordrawable:1.1.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/217f6b76ecb518ded406d0820d65c9a2/transformed/vectordrawable-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.9.0@jar"
+      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-slf4j/1.9.0/17b86b2f6eb84441a53621ca7c593161e1696c4e/kotlinx-coroutines-slf4j-1.9.0.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-slf4j:1.9.0"/>
   <library
       name="org.jetbrains.kotlinx:atomicfu-jvm:0.23.2@jar"
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-jvm/0.23.2/a4601dc42dceb031a586058e8356ff778a57dea0/atomicfu-jvm-0.23.2.jar"
@@ -643,9 +853,9 @@
       resolved="androidx.collection:collection-ktx:1.4.0"/>
   <library
       name="androidx.arch.core:core-runtime:2.2.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/2bef50b6d469034db2bd549e44fb7f88/transformed/core-runtime-2.2.0/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/23bdf3197b80193605f8c963808dabcd/transformed/core-runtime-2.2.0/jars/classes.jar"
       resolved="androidx.arch.core:core-runtime:2.2.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/2bef50b6d469034db2bd549e44fb7f88/transformed/core-runtime-2.2.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/23bdf3197b80193605f8c963808dabcd/transformed/core-runtime-2.2.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -655,10 +865,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.profileinstaller:profileinstaller:1.3.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1/jars/classes.jar"
-      resolved="androidx.profileinstaller:profileinstaller:1.3.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/37f8a36ac847739797ba30a6ef2f653c/transformed/profileinstaller-1.3.1"
+      name="androidx.profileinstaller:profileinstaller:1.4.1@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/e894da72f7d9a71dfa79ae050e025cd5/transformed/profileinstaller-1.4.1/jars/classes.jar"
+      resolved="androidx.profileinstaller:profileinstaller:1.4.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/e894da72f7d9a71dfa79ae050e025cd5/transformed/profileinstaller-1.4.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -669,9 +879,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.startup:startup-runtime:1.1.1@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/6c19ece8b6aa41bd6dd0560079534f7e/transformed/startup-runtime-1.1.1/jars/classes.jar"
       resolved="androidx.startup:startup-runtime:1.1.1"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/17e533a174485b04276372d53f87fb12/transformed/startup-runtime-1.1.1"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/6c19ece8b6aa41bd6dd0560079534f7e/transformed/startup-runtime-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -682,9 +892,35 @@
       proguardRules="proguard.txt"/>
   <library
       name="androidx.tracing:tracing:1.0.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/5f786d0c4305883c0e9f1f86f8ce488e/transformed/tracing-1.0.0/jars/classes.jar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/ae6c25ef3c99c30369d7ec33037a1188/transformed/tracing-1.0.0/jars/classes.jar"
       resolved="androidx.tracing:tracing:1.0.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/5f786d0c4305883c0e9f1f86f8ce488e/transformed/tracing-1.0.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/ae6c25ef3c99c30369d7ec33037a1188/transformed/tracing-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.interpolator:interpolator:1.0.0@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/1a6604509ade73a69cc66b29215555bc/transformed/interpolator-1.0.0/jars/classes.jar"
+      resolved="androidx.interpolator:interpolator:1.0.0"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/1a6604509ade73a69cc66b29215555bc/transformed/interpolator-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.exifinterface:exifinterface:1.3.7@aar"
+      jars="/home/vipul/.gradle/caches/8.9/transforms/99b4e0685b203fc684910bd98bdd0c03/transformed/exifinterface-1.3.7/jars/classes.jar"
+      resolved="androidx.exifinterface:exifinterface:1.3.7"
+      folder="/home/vipul/.gradle/caches/8.9/transforms/99b4e0685b203fc684910bd98bdd0c03/transformed/exifinterface-1.3.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -697,23 +933,6 @@
       name="androidx.concurrent:concurrent-futures:1.1.0@jar"
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar"
       resolved="androidx.concurrent:concurrent-futures:1.1.0"/>
-  <library
-      name="androidx.interpolator:interpolator:1.0.0@aar"
-      jars="/home/vipul/.gradle/caches/8.9/transforms/7550f67fd388ff107737f7263812bfdf/transformed/interpolator-1.0.0/jars/classes.jar"
-      resolved="androidx.interpolator:interpolator:1.0.0"
-      folder="/home/vipul/.gradle/caches/8.9/transforms/7550f67fd388ff107737f7263812bfdf/transformed/interpolator-1.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3@jar"
-      jars="/home/vipul/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.6.3/6b6c17d0312ba7192893adea9d52959941d0119b/kotlinx-serialization-core-jvm-1.6.3.jar"
-      resolved="org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.6.3"/>
   <library
       name="com.google.guava:listenablefuture:1.0@jar"
       jars="/home/vipul/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"

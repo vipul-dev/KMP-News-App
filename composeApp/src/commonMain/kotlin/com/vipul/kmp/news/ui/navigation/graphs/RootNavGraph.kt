@@ -6,6 +6,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.vipul.kmp.news.ui.MainScreen
 import com.vipul.kmp.news.ui.navigation.Graph
+import com.vipul.kmp.news.ui.navigation.SettingScreenRoute
+import com.vipul.kmp.news.ui.setting.SettingScreen
 
 @Composable
 fun RootNavGraph() {
@@ -17,6 +19,10 @@ fun RootNavGraph() {
     ){
         composable(route= Graph.MainScreenGraph){
             MainScreen(rootNavController)
+        }
+
+        composable(route=SettingScreenRoute.Setting.route){
+            SettingScreen(rootNavController)
         }
     }
 }

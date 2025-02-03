@@ -1,16 +1,38 @@
 package com.vipul.kmp.news.ui.headline
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.sp
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.vipul.kmp.news.ui.component.ArticleListScreen
+import com.vipul.kmp.news.ui.component.EmptyContent
+import com.vipul.kmp.news.ui.component.LoadingShimmerEffect
+import com.vipul.kmp.news.utils.articles
 
 @Composable
 fun HeadlineScreen() {
-    Box(modifier = Modifier.fillMaxSize()){
-        Text(text = "Headline", fontSize = 32.sp, modifier = Modifier.align(Alignment.Center))
+    val headlineViewmodel = viewModel {
+        HeadlineViewmodel()
     }
+
+    val uiState by headlineViewmodel.newsStateFlow.collectAsState()
+    uiState.DisplayResult(
+        onIdle = {
+
+        },
+        onLoading = {
+            LoadingShimmerEffect()
+        },
+        onSuccess = {
+            if (it.isEmpty()){
+             EmptyContent("No Data")
+            }else {
+                ArticleListScreen(it)
+            }
+        },
+        onError = {
+            EmptyContent(it)
+        }
+    )
+
 }
