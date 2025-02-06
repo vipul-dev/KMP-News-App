@@ -11,11 +11,15 @@ import com.vipul.kmp.news.ui.navigation.BottomNavigationItem
 import com.vipul.kmp.news.ui.navigation.MainScreenRoute
 import kmp_news_app.composeapp.generated.resources.Res
 import kmp_news_app.composeapp.generated.resources.bookmark
+import kmp_news_app.composeapp.generated.resources.dark_mode
 import kmp_news_app.composeapp.generated.resources.headlines
 import kmp_news_app.composeapp.generated.resources.ic_bookmark_outline
 import kmp_news_app.composeapp.generated.resources.ic_headline
 import kmp_news_app.composeapp.generated.resources.ic_search
+import kmp_news_app.composeapp.generated.resources.light_mode
 import kmp_news_app.composeapp.generated.resources.search
+import kmp_news_app.composeapp.generated.resources.system_default
+import org.jetbrains.compose.resources.StringResource
 import kotlin.random.Random
 
 
@@ -37,8 +41,17 @@ val bottomNavigationList = listOf(
     ),
 )
 
+const val dataStoreFileName = "setting.preferences_pb"
+
+
 enum class Type {
     Mobile, Desktop
+}
+
+enum class Theme(val title: StringResource) {
+    SYSTEM_DEFAULT(Res.string.system_default),
+    LIGHT_MODE(Res.string.light_mode),
+    DARK_MODE(Res.string.dark_mode)
 }
 
 val articles: List<Article> = listOf(
@@ -47,7 +60,7 @@ val articles: List<Article> = listOf(
         author = "The author",
         title = "This is the main news title headline. This is the main news title headline.",
         description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "",
+        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         publishedAt = Random(100).nextInt().toString(),
         content = "What is the content?"
@@ -57,7 +70,7 @@ val articles: List<Article> = listOf(
         author = "The author",
         title = "This is the main news title headline. This is the main news title headline.",
         description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "",
+        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         publishedAt = Random(100).nextInt().toString(),
         content = "What is the content?"
@@ -67,7 +80,7 @@ val articles: List<Article> = listOf(
         author = "The author",
         title = "This is the main news title headline. This is the main news title headline.",
         description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "",
+        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         publishedAt = Random(100).nextInt().toString(),
         content = "What is the content?"
@@ -77,7 +90,7 @@ val articles: List<Article> = listOf(
         author = "The author",
         title = "This is the main news title headline. This is the main news title headline.",
         description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "",
+        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
         publishedAt = Random(100).nextInt().toString(),
         content = "What is the content?"
@@ -90,7 +103,7 @@ val newsResponse = NewsResponse(
     5
 )
 
-val FadeIN = fadeIn(animationSpec = tween(220, delayMillis = 90))+
+val FadeIN = fadeIn(animationSpec = tween(220, delayMillis = 90)) +
         scaleIn(
             initialScale = 0.92f,
             animationSpec = tween(220, delayMillis = 90)

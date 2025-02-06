@@ -64,7 +64,14 @@
           "io.coil-kt.coil3:coil-compose-core",
           "io.coil-kt.coil3:coil-compose",
           "io.coil-kt.coil3:coil",
-          "io.coil-kt.coil3:coil-network-ktor3"
+          "io.coil-kt.coil3:coil-network-ktor3",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "io.ktor:ktor-client-content-negotiation",
+          "org.jetbrains.kotlinx:kotlinx-serialization-json",
+          "co.touchlab:kermit",
+          "androidx.datastore:datastore-preferences-core"
         ],
         "sourceSetCInteropMetadataDirectory": "appleMain-cinterop",
         "binaryLayout": "klib",
@@ -98,7 +105,15 @@
           "io.coil-kt.coil3:coil-compose-core",
           "io.coil-kt.coil3:coil-compose",
           "io.coil-kt.coil3:coil",
-          "io.coil-kt.coil3:coil-network-ktor3"
+          "io.coil-kt.coil3:coil-network-ktor3",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "io.ktor:ktor-client-content-negotiation",
+          "org.jetbrains.kotlinx:kotlinx-serialization-json",
+          "co.touchlab:kermit",
+          "androidx.datastore:datastore-preferences-core",
+          "io.ktor:ktor-client-darwin"
         ],
         "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
         "binaryLayout": "klib",
@@ -124,7 +139,14 @@
           "io.coil-kt.coil3:coil-compose-core",
           "io.coil-kt.coil3:coil-compose",
           "io.coil-kt.coil3:coil",
-          "io.coil-kt.coil3:coil-network-ktor3"
+          "io.coil-kt.coil3:coil-network-ktor3",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "io.ktor:ktor-client-content-negotiation",
+          "org.jetbrains.kotlinx:kotlinx-serialization-json",
+          "co.touchlab:kermit",
+          "androidx.datastore:datastore-preferences-core"
         ],
         "sourceSetCInteropMetadataDirectory": "nativeMain-cinterop",
         "binaryLayout": "klib",

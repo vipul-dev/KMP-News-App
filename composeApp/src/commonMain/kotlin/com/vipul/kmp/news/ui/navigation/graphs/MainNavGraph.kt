@@ -27,13 +27,13 @@ fun MainNavGraph(
         startDestination = MainScreenRoute.Headline.route
     ) {
         composable(route = MainScreenRoute.Headline.route) {
-            HeadlineScreen()
+            HeadlineScreen(rootNavController)
         }
         composable(route = MainScreenRoute.Search.route) {
-            SearchScreen()
+            SearchScreen(rootNavController)
         }
         composable(route = MainScreenRoute.Bookmark.route) {
-            BookmarkScreen()
+            BookmarkScreen(rootNavController)
         }
     }
 }

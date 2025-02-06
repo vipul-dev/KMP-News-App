@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vipul.kmp.news.composeApp-mergeDebugResources-51:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.vipul.kmp.news.composeApp-mergeDebugResources-52:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/vipul/.gradle/caches/8.9/transforms/0ee956f69b3ceaa6a18ca8e001876e2e/transformed/core-1.13.1/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,451,555,658,774",
-                        "endColumns": "95,101,98,98,103,102,115,100",
-                        "endOffsets": "146,248,347,446,550,653,769,870"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,81",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,201,303,402,501,605,708,8187",
-                        "endColumns": "95,101,98,98,103,102,115,100",
-                        "endOffsets": "196,298,397,496,600,703,819,8283"
-                    }
-                },
-                {
-                    "source": "/home/vipul/.gradle/caches/8.9/transforms/c9de12fc6ed35a4d424ee5e8153e510a/transformed/material3-release/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/vipul/.gradle/caches/8.9/transforms/7385dea88ea32db6b461f3b53b97e33a/transformed/material3-release/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/vipul/.gradle/caches/8.9/transforms/92f8cb9cb6dd2976fe22b22eb23603ad/transformed/ui-release/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/vipul/.gradle/caches/8.9/transforms/1789c13022971c17d7c4add200f12303/transformed/ui-release/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/vipul/.gradle/caches/8.9/transforms/d21480579b6431c3fad52cbe63ef5883/transformed/foundation-release/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/vipul/.gradle/caches/8.9/transforms/6bc1d93fdd76fbf1ff2a1981fc2d0b20/transformed/foundation-release/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "8552,8638",
                         "endColumns": "85,84",
                         "endOffsets": "8633,8718"
+                    }
+                },
+                {
+                    "source": "/home/vipul/.gradle/caches/8.9/transforms/df8425eef55e1a2fa91c2dc196f564d3/transformed/core-1.13.1/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,658,774",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "146,248,347,446,550,653,769,870"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,81",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,201,303,402,501,605,708,8187",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "196,298,397,496,600,703,819,8283"
                     }
                 }
             ]

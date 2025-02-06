@@ -4,12 +4,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
 import com.vipul.kmp.news.ui.component.ArticleListScreen
 import com.vipul.kmp.news.ui.component.EmptyContent
 import com.vipul.kmp.news.ui.component.LoadingShimmerEffect
 
 @Composable
-fun BookmarkScreen() {
+fun BookmarkScreen(navController: NavController) {
     val bookmarkViewmodel = viewModel {
         BookmarkViewmodel()
     }
@@ -26,7 +27,7 @@ fun BookmarkScreen() {
             if (it.isEmpty()) {
                 EmptyContent("No Data")
             } else {
-                ArticleListScreen(it)
+                ArticleListScreen(it,navController)
             }
         },
         onError = {

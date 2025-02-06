@@ -1,12 +1,16 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+import java.util.*
+import com.codingfeline.buildkonfig.compiler.FieldSpec
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    alias(libs.plugins.buildkonfig)
+    alias(libs.plugins.kotlinx.serialization)
 }
 
 kotlin {
@@ -61,10 +65,31 @@ kotlin {
             implementation(libs.coil.mp)
             implementation(libs.coil.network.ktor3)
 
+            // Ktor
+            implementation(libs.ktor.core)
+            implementation(libs.ktor.json)
+            implementation(libs.ktor.logging)
+            implementation(libs.ktor.negotiation)
+            implementation(libs.kotlinx.serialization.json)
+
+            //Kermit  for logging
+            implementation(libs.kermit)
+
+            //dataStore
+            implementation(libs.androidx.data.store.core)
+
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
+
+            // ktor
+            implementation(libs.ktor.client.okhttp)
+        }
+        iosMain.dependencies {
+
+            // Ktor
+            implementation(libs.ktor.client.darwin)
         }
     }
 }
@@ -111,3 +136,23 @@ compose.desktop {
         }
     }
 }
+buildkonfig {
+    packageName = "com.vipul.kmp.news"
+
+    val localProperties =
+        Properties().apply {
+            val propsFile = rootProject.file("local.properties")
+            if (propsFile.exists()) {
+                load(propsFile.inputStream())
+            }
+        }
+
+    defaultConfigs {
+        buildConfigField(
+            FieldSpec.Type.STRING,
+            "NEWS_API_KEY",
+            localProperties["NEWS_API_KEY"]?.toString() ?: "",
+        )
+    }
+}
+

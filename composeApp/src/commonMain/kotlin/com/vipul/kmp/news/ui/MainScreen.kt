@@ -91,7 +91,7 @@ fun MainScreen(
             title = {
                 Text(
                     text = stringResource(topBarTitle),
-                    style = MaterialTheme.typography.headlineLarge,
+                    style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onBackground
                 )

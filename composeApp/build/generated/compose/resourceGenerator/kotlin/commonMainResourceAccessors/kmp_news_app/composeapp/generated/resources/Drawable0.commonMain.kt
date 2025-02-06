@@ -18,6 +18,9 @@ private object CommonMainDrawable0 {
   public val ic_bookmark_outline: DrawableResource by 
       lazy { init_ic_bookmark_outline() }
 
+  public val ic_browse: DrawableResource by 
+      lazy { init_ic_browse() }
+
   public val ic_delete: DrawableResource by 
       lazy { init_ic_delete() }
 
@@ -26,6 +29,9 @@ private object CommonMainDrawable0 {
 
   public val ic_headline: DrawableResource by 
       lazy { init_ic_headline() }
+
+  public val ic_light_mode: DrawableResource by 
+      lazy { init_ic_light_mode() }
 
   public val ic_retry: DrawableResource by 
       lazy { init_ic_retry() }
@@ -39,9 +45,11 @@ internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, Drawab
   map.put("compose_multiplatform", CommonMainDrawable0.compose_multiplatform)
   map.put("ic_bookmark_filled", CommonMainDrawable0.ic_bookmark_filled)
   map.put("ic_bookmark_outline", CommonMainDrawable0.ic_bookmark_outline)
+  map.put("ic_browse", CommonMainDrawable0.ic_browse)
   map.put("ic_delete", CommonMainDrawable0.ic_delete)
   map.put("ic_error", CommonMainDrawable0.ic_error)
   map.put("ic_headline", CommonMainDrawable0.ic_headline)
+  map.put("ic_light_mode", CommonMainDrawable0.ic_light_mode)
   map.put("ic_retry", CommonMainDrawable0.ic_retry)
   map.put("ic_search", CommonMainDrawable0.ic_search)
 }
@@ -82,6 +90,17 @@ private fun init_ic_bookmark_outline(): DrawableResource =
     )
 )
 
+internal val Res.drawable.ic_browse: DrawableResource
+  get() = CommonMainDrawable0.ic_browse
+
+private fun init_ic_browse(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
+  "drawable:ic_browse",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_browse.xml", -1, -1),
+    )
+)
+
 internal val Res.drawable.ic_delete: DrawableResource
   get() = CommonMainDrawable0.ic_delete
 
@@ -112,6 +131,18 @@ private fun init_ic_headline(): DrawableResource = org.jetbrains.compose.resourc
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_headline.xml", -1, -1),
+    )
+)
+
+internal val Res.drawable.ic_light_mode: DrawableResource
+  get() = CommonMainDrawable0.ic_light_mode
+
+private fun init_ic_light_mode(): DrawableResource =
+    org.jetbrains.compose.resources.DrawableResource(
+  "drawable:ic_light_mode",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_light_mode.xml", -1, -1),
     )
 )
 

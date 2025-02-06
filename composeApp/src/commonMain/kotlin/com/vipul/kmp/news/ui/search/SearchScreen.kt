@@ -11,6 +11,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
 import com.vipul.kmp.news.theme.mediumPadding
 import com.vipul.kmp.news.ui.component.ArticleListScreen
 import com.vipul.kmp.news.ui.component.EmptyContent
@@ -18,7 +19,7 @@ import com.vipul.kmp.news.ui.component.LoadingShimmerEffect
 import com.vipul.kmp.news.ui.component.SearchBarScreen
 
 @Composable
-fun SearchScreen() {
+fun SearchScreen(navController: NavController) {
     var searchQuery by rememberSaveable {
         mutableStateOf("")
     }
@@ -56,7 +57,7 @@ fun SearchScreen() {
                 if (it.isEmpty()) {
                     EmptyContent("No News")
                 } else {
-                    ArticleListScreen(it)
+                    ArticleListScreen(it,navController)
                 }
             },
             onError = {
