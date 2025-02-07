@@ -4,7 +4,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.vipul.kmp.news.models.Article
 import com.vipul.kmp.news.utils.Resource
-import com.vipul.kmp.news.utils.articles
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
 import kotlinx.coroutines.delay
@@ -28,8 +27,8 @@ class BookmarkViewmodel : ViewModel() {
             _newsStateFlow.emit(Resource.Loading)
             delay(2500)
             try {
-                val articleList = articles
-                _newsStateFlow.emit(Resource.Success(articleList))
+//                val articleList = articles
+//                _newsStateFlow.emit(Resource.Success(articleList))
             } catch (e: Exception) {
                 _newsStateFlow.emit(Resource.Error(e.message.toString()))
                 e.printStackTrace()

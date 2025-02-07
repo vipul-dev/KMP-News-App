@@ -15,4 +15,7 @@
     <string name = "choose_a_theme">Choose a theme</string>
     <string name = "apply_btn">Apply</string>
     <string name = "article_detail">Article Detail</string>
+    <string name = "retry">Retry</string>
+    <string name = "no_news">No News</string>
+    <string name = "type_to_search">Type to search</string>
 </resources>

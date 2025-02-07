@@ -45,6 +45,12 @@ private object CommonMainString0 {
   public val light_mode: StringResource by 
       lazy { init_light_mode() }
 
+  public val no_news: StringResource by 
+      lazy { init_no_news() }
+
+  public val retry: StringResource by 
+      lazy { init_retry() }
+
   public val search: StringResource by 
       lazy { init_search() }
 
@@ -56,6 +62,9 @@ private object CommonMainString0 {
 
   public val theme: StringResource by 
       lazy { init_theme() }
+
+  public val type_to_search: StringResource by 
+      lazy { init_type_to_search() }
 }
 
 @InternalResourceApi
@@ -72,10 +81,13 @@ internal fun _collectCommonMainString0Resources(map: MutableMap<String, StringRe
   map.put("delete_bookmark_description", CommonMainString0.delete_bookmark_description)
   map.put("headlines", CommonMainString0.headlines)
   map.put("light_mode", CommonMainString0.light_mode)
+  map.put("no_news", CommonMainString0.no_news)
+  map.put("retry", CommonMainString0.retry)
   map.put("search", CommonMainString0.search)
   map.put("setting", CommonMainString0.setting)
   map.put("system_default", CommonMainString0.system_default)
   map.put("theme", CommonMainString0.theme)
+  map.put("type_to_search", CommonMainString0.type_to_search)
 }
 
 internal val Res.string.app_name: StringResource
@@ -223,6 +235,30 @@ private fun init_light_mode(): StringResource = org.jetbrains.compose.resources.
     )
 )
 
+internal val Res.string.no_news: StringResource
+  get() = CommonMainString0.no_news
+
+private fun init_no_news(): StringResource = org.jetbrains.compose.resources.StringResource(
+  "string:no_news", "no_news",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
+    461, 27),
+    )
+)
+
+internal val Res.string.retry: StringResource
+  get() = CommonMainString0.retry
+
+private fun init_retry(): StringResource = org.jetbrains.compose.resources.StringResource(
+  "string:retry", "retry",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
+    489, 21),
+    )
+)
+
 internal val Res.string.search: StringResource
   get() = CommonMainString0.search
 
@@ -231,7 +267,7 @@ private fun init_search(): StringResource = org.jetbrains.compose.resources.Stri
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
-    461, 22),
+    511, 22),
     )
 )
 
@@ -243,7 +279,7 @@ private fun init_setting(): StringResource = org.jetbrains.compose.resources.Str
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
-    484, 27),
+    534, 27),
     )
 )
 
@@ -255,7 +291,7 @@ private fun init_system_default(): StringResource = org.jetbrains.compose.resour
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
-    512, 42),
+    562, 42),
     )
 )
 
@@ -267,6 +303,18 @@ private fun init_theme(): StringResource = org.jetbrains.compose.resources.Strin
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
-    555, 21),
+    605, 21),
+    )
+)
+
+internal val Res.string.type_to_search: StringResource
+  get() = CommonMainString0.type_to_search
+
+private fun init_type_to_search(): StringResource = org.jetbrains.compose.resources.StringResource(
+  "string:type_to_search", "type_to_search",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/values/strings.commonMain.cvr",
+    627, 42),
     )
 )

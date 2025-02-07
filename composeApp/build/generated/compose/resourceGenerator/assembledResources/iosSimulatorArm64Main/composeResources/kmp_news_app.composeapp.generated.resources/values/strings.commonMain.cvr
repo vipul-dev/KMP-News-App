@@ -11,7 +11,10 @@ string|delete_bookmark|RGVsZXRlIEJvb2ttYXJr
 string|delete|RGVsZXRl
 string|headlines|SGVhZGxpbmVz
 string|light_mode|TGlnaHQgTW9kZQ==
+string|no_news|Tm8gTmV3cw==
+string|retry|UmV0cnk=
 string|search|U2VhcmNo
 string|setting|U2V0dGluZw==
 string|system_default|U3lzdGVtIERlZmF1bHQ=
 string|theme|VGhlbWU=
+string|type_to_search|VHlwZSB0byBzZWFyY2g=

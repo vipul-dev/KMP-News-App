@@ -39,6 +39,7 @@ import kmp_news_app.composeapp.generated.resources.ic_error
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ArticleDetailScreen(
@@ -140,6 +141,7 @@ fun ArticleDetailScreen(
             }
             currentArticle.publishedAt.let {
                 item {
+                    val dateAndTime = ("")
                     Text(
                         text = it,
                         style = MaterialTheme.typography.bodyLarge,

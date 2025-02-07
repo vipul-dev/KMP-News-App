@@ -12,12 +12,13 @@ import com.vipul.kmp.news.models.Article
 import com.vipul.kmp.news.theme.xLargePadding
 import com.vipul.kmp.news.ui.navigation.NewsScreenRoute
 import com.vipul.kmp.news.utils.Type
-import com.vipul.kmp.news.utils.articles
 import com.vipul.kmp.news.utils.getType
 import com.vipul.kmp.news.utils.randomUUIDStr
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 
 @Composable
-fun ArticleListScreen(articleList: List<Article>,navController: NavController) {
+fun ArticleListScreen(articleList: List<Article>, navController: NavController) {
     val isDesktop = remember {
         getType() == Type.Desktop
     }
@@ -31,7 +32,10 @@ fun ArticleListScreen(articleList: List<Article>,navController: NavController) {
             it.publishedAt + randomUUIDStr()
         }) { article ->
             ArticleItem(article = article, onClick = {
-
+                val articleStr = Json.encodeToString(article)
+                navController.currentBackStackEntry?.savedStateHandle?.apply {
+                    set("article", articleStr)
+                }
                 navController.navigate(NewsScreenRoute.NewsDetails.route)
             })
         }

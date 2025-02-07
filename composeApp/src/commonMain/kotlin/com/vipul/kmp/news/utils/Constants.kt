@@ -4,9 +4,6 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.scaleIn
-import com.vipul.kmp.news.models.Article
-import com.vipul.kmp.news.models.NewsResponse
-import com.vipul.kmp.news.models.Source
 import com.vipul.kmp.news.ui.navigation.BottomNavigationItem
 import com.vipul.kmp.news.ui.navigation.MainScreenRoute
 import kmp_news_app.composeapp.generated.resources.Res
@@ -22,6 +19,9 @@ import kmp_news_app.composeapp.generated.resources.system_default
 import org.jetbrains.compose.resources.StringResource
 import kotlin.random.Random
 
+
+const val dataStoreFileName = "setting.preferences_pb"
+const val BASE_URl = "https://newsapi.org/v2/"
 
 val bottomNavigationList = listOf(
     BottomNavigationItem(
@@ -41,8 +41,6 @@ val bottomNavigationList = listOf(
     ),
 )
 
-const val dataStoreFileName = "setting.preferences_pb"
-
 
 enum class Type {
     Mobile, Desktop
@@ -54,54 +52,6 @@ enum class Theme(val title: StringResource) {
     DARK_MODE(Res.string.dark_mode)
 }
 
-val articles: List<Article> = listOf(
-    Article(
-        source = Source("dwa", "My news"),
-        author = "The author",
-        title = "This is the main news title headline. This is the main news title headline.",
-        description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        publishedAt = Random(100).nextInt().toString(),
-        content = "What is the content?"
-    ),
-    Article(
-        source = Source("dawdwa", "My news"),
-        author = "The author",
-        title = "This is the main news title headline. This is the main news title headline.",
-        description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        publishedAt = Random(100).nextInt().toString(),
-        content = "What is the content?"
-    ),
-    Article(
-        source = Source("dwakjyk", "My news"),
-        author = "The author",
-        title = "This is the main news title headline. This is the main news title headline.",
-        description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        publishedAt = Random(100).nextInt().toString(),
-        content = "What is the content?"
-    ),
-    Article(
-        source = Source("dwserfewa", "My news"),
-        author = "The author",
-        title = "This is the main news title headline. This is the main news title headline.",
-        description = "This is the main news description. This is the main news description. This is the main news description",
-        url = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        urlToImage = "https://www.marketscreener.com/images/reuters/2024-03-05T144855Z_1_LYNXNPEK240IP_RTROPTP_3_GERMANY-TESLA-FIRE.JPG",
-        publishedAt = Random(100).nextInt().toString(),
-        content = "What is the content?"
-    )
-)
-
-val newsResponse = NewsResponse(
-    articles = articles,
-    "dwe",
-    5
-)
 
 val FadeIN = fadeIn(animationSpec = tween(220, delayMillis = 90)) +
         scaleIn(

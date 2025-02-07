@@ -27,11 +27,17 @@ private object CommonMainDrawable0 {
   public val ic_error: DrawableResource by 
       lazy { init_ic_error() }
 
+  public val ic_go_search: DrawableResource by 
+      lazy { init_ic_go_search() }
+
   public val ic_headline: DrawableResource by 
       lazy { init_ic_headline() }
 
   public val ic_light_mode: DrawableResource by 
       lazy { init_ic_light_mode() }
+
+  public val ic_network_error: DrawableResource by 
+      lazy { init_ic_network_error() }
 
   public val ic_retry: DrawableResource by 
       lazy { init_ic_retry() }
@@ -48,8 +54,10 @@ internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, Drawab
   map.put("ic_browse", CommonMainDrawable0.ic_browse)
   map.put("ic_delete", CommonMainDrawable0.ic_delete)
   map.put("ic_error", CommonMainDrawable0.ic_error)
+  map.put("ic_go_search", CommonMainDrawable0.ic_go_search)
   map.put("ic_headline", CommonMainDrawable0.ic_headline)
   map.put("ic_light_mode", CommonMainDrawable0.ic_light_mode)
+  map.put("ic_network_error", CommonMainDrawable0.ic_network_error)
   map.put("ic_retry", CommonMainDrawable0.ic_retry)
   map.put("ic_search", CommonMainDrawable0.ic_search)
 }
@@ -123,6 +131,18 @@ private fun init_ic_error(): DrawableResource = org.jetbrains.compose.resources.
     )
 )
 
+internal val Res.drawable.ic_go_search: DrawableResource
+  get() = CommonMainDrawable0.ic_go_search
+
+private fun init_ic_go_search(): DrawableResource =
+    org.jetbrains.compose.resources.DrawableResource(
+  "drawable:ic_go_search",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_go_search.xml", -1, -1),
+    )
+)
+
 internal val Res.drawable.ic_headline: DrawableResource
   get() = CommonMainDrawable0.ic_headline
 
@@ -143,6 +163,18 @@ private fun init_ic_light_mode(): DrawableResource =
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_light_mode.xml", -1, -1),
+    )
+)
+
+internal val Res.drawable.ic_network_error: DrawableResource
+  get() = CommonMainDrawable0.ic_network_error
+
+private fun init_ic_network_error(): DrawableResource =
+    org.jetbrains.compose.resources.DrawableResource(
+  "drawable:ic_network_error",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_network_error.xml", -1, -1),
     )
 )
 

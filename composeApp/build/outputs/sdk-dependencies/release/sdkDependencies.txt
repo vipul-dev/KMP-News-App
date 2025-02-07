@@ -3019,12 +3019,12 @@ library_dependencies {
 }
 library_dependencies {
   library_index: 101
-  library_dep_index: 100
   library_dep_index: 99
   library_dep_index: 102
   library_dep_index: 103
   library_dep_index: 104
   library_dep_index: 105
+  library_dep_index: 100
 }
 library_dependencies {
   library_index: 102

@@ -8,6 +8,10 @@ import androidx.navigation.NavController
 import com.vipul.kmp.news.ui.component.ArticleListScreen
 import com.vipul.kmp.news.ui.component.EmptyContent
 import com.vipul.kmp.news.ui.component.LoadingShimmerEffect
+import kmp_news_app.composeapp.generated.resources.Res
+import kmp_news_app.composeapp.generated.resources.ic_browse
+import kmp_news_app.composeapp.generated.resources.no_news
+import org.jetbrains.compose.resources.stringResource
 
 @Composable
 fun BookmarkScreen(navController: NavController) {
@@ -25,13 +29,20 @@ fun BookmarkScreen(navController: NavController) {
         },
         onSuccess = {
             if (it.isEmpty()) {
-                EmptyContent("No Data")
+                EmptyContent(
+                    message = stringResource(Res.string.no_news),
+                    icon = Res.drawable.ic_browse,
+                )
             } else {
                 ArticleListScreen(it,navController)
             }
         },
         onError = {
-            EmptyContent(it)
+            EmptyContent(
+                message = it,
+                icon = Res.drawable.ic_browse,
+
+            )
         }
     )
 }
