@@ -5,7 +5,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.vipul.kmp.news.repository.NewsRepository
+import com.vipul.kmp.news.repository.OnlineNewsRepository
 import com.vipul.kmp.news.ui.component.ArticleListScreen
 import com.vipul.kmp.news.ui.component.EmptyContent
 import com.vipul.kmp.news.ui.component.LoadingShimmerEffect
@@ -18,7 +18,7 @@ import org.jetbrains.compose.resources.stringResource
 @Composable
 fun HeadlineScreen(navController: NavController) {
     val headlineViewmodel = viewModel {
-        HeadlineViewmodel(NewsRepository())
+        HeadlineViewmodel(OnlineNewsRepository())
     }
 
     val uiState by headlineViewmodel.newsStateFlow.collectAsState()

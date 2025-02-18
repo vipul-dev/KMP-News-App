@@ -115,6 +115,16 @@
     "sourceSetName": "commonMain"
   },
   {
+    "moduleId": "module androidx.room:room-runtime:2.7.0-alpha13",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.room-room-runtime-2.7.0-alpha13-commonMain-VuJRTQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.sqlite:sqlite-bundled:2.5.0-alpha13",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.sqlite-sqlite-bundled-2.5.0-alpha13-commonMain-aYYGcg.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
     "moduleId": "module org.jetbrains.compose.animation:animation:1.7.0",
     "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.animation-animation-1.7.0-commonMain-TojQLQ.klib",
     "sourceSetName": "commonMain"
@@ -330,6 +340,26 @@
     "sourceSetName": "commonMain"
   },
   {
+    "moduleId": "module androidx.annotation:annotation:1.9.1",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.annotation-annotation-1.9.1-commonMain-WmoUwA.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.collection:collection:1.4.2",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.collection-collection-1.4.2-commonMain-GMwabQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.room:room-common:2.7.0-alpha13",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.room-room-common-2.7.0-alpha13-commonMain-UeBJWw.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
+    "moduleId": "module androidx.sqlite:sqlite:2.5.0-alpha13",
+    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.sqlite-sqlite-2.5.0-alpha13-commonMain-qcQ_xQ.klib",
+    "sourceSetName": "commonMain"
+  },
+  {
     "moduleId": "module org.jetbrains.compose.foundation:foundation-layout:1.7.0",
     "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/org.jetbrains.compose.foundation-foundation-layout-1.7.0-commonMain-Nkt8ew.klib",
     "sourceSetName": "commonMain"
@@ -352,11 +382,6 @@
   {
     "moduleId": "module io.ktor:ktor-websockets:3.0.0",
     "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/io.ktor-ktor-websockets-3.0.0-commonMain-tSaR_g.klib",
-    "sourceSetName": "commonMain"
-  },
-  {
-    "moduleId": "module androidx.annotation:annotation:1.8.1",
-    "file": "/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/build/kotlinTransformedMetadataLibraries/commonMain/androidx.annotation-annotation-1.8.1-commonMain-VdfbRA.klib",
     "sourceSetName": "commonMain"
   },
   {

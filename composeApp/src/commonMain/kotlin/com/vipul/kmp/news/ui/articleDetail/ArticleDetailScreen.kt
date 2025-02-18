@@ -25,11 +25,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
 import com.vipul.kmp.news.models.Article
+import com.vipul.kmp.news.repository.LocalNewsRepository
 import com.vipul.kmp.news.theme.detailImageSize
 import com.vipul.kmp.news.theme.xLargePadding
+import com.vipul.kmp.news.utils.getDatabaseBuilder
+import com.vipul.kmp.news.utils.getRoomDatabase
 import com.vipul.kmp.news.utils.shareLink
 import kmp_news_app.composeapp.generated.resources.Res
 import kmp_news_app.composeapp.generated.resources.article_detail
@@ -46,6 +50,9 @@ fun ArticleDetailScreen(
     navController: NavController,
     currentArticle: Article
 ) {
+    val articleDetailsViewModel = viewModel {
+        ArticleDetailsViewModel(LocalNewsRepository(getRoomDatabase(getDatabaseBuilder()).newsDao()))
+    }
     val urlHandler = LocalUriHandler.current
     Scaffold(
         topBar = {
@@ -91,7 +98,7 @@ fun ArticleDetailScreen(
                     }
                     IconButton(
                         onClick = {
-
+                            articleDetailsViewModel.bookmarkArticle(currentArticle)
                         }
                     ) {
                         Icon(

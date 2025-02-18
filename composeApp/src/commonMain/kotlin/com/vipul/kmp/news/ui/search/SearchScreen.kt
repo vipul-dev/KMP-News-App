@@ -12,7 +12,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import com.vipul.kmp.news.repository.NewsRepository
+import com.vipul.kmp.news.repository.OnlineNewsRepository
 import com.vipul.kmp.news.theme.mediumPadding
 import com.vipul.kmp.news.ui.component.ArticleListScreen
 import com.vipul.kmp.news.ui.component.EmptyContent
@@ -31,7 +31,7 @@ fun SearchScreen(navController: NavController) {
         mutableStateOf("")
     }
     val searchViewmodel = viewModel {
-        SearchViewmodel(NewsRepository())
+        SearchViewmodel(OnlineNewsRepository())
     }
     val uiState by searchViewmodel.newsStateFlow.collectAsState()
 

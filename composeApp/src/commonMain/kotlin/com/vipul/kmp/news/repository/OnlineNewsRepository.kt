@@ -19,7 +19,7 @@ import io.ktor.http.contentType
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 
-class NewsRepository {
+class OnlineNewsRepository {
     private val httpClient = HttpClient {
         defaultRequest {
             url(BASE_URl)

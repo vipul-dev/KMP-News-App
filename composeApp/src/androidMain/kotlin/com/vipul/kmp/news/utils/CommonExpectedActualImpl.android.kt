@@ -4,6 +4,9 @@ import android.app.Activity
 import android.content.Intent
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import com.vipul.kmp.news.database.NewsDatabase
 import java.util.UUID
 
 actual fun getType(): Type {
@@ -41,5 +44,15 @@ actual fun dataStorePreference(): DataStore<Preferences> {
                 .absolutePath
         }
 
+    )
+}
+
+actual fun getDatabaseBuilder(): RoomDatabase.Builder<NewsDatabase> {
+    val activity = activityProvider.invoke()
+    val dbFile = activity.getDatabasePath(DB_NAME)
+
+    return Room.databaseBuilder<NewsDatabase>(
+        context = activity,
+        name = dbFile.absolutePath
     )
 }

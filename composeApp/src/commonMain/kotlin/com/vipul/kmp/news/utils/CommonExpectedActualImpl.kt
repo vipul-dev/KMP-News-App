@@ -3,6 +3,11 @@ package com.vipul.kmp.news.utils
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
+import androidx.room.RoomDatabase
+import androidx.sqlite.driver.bundled.BundledSQLiteDriver
+import com.vipul.kmp.news.database.NewsDatabase
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.IO
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.SynchronizedObject
 import kotlinx.coroutines.internal.synchronized
@@ -36,4 +41,13 @@ object AppSettings {
             }
         }
     }
+}
+
+expect fun getDatabaseBuilder(): RoomDatabase.Builder<NewsDatabase>
+
+fun getRoomDatabase(builder: RoomDatabase.Builder<NewsDatabase>): NewsDatabase {
+    return builder
+        .setDriver(BundledSQLiteDriver())
+        .setQueryCoroutineContext(Dispatchers.IO)
+        .build()
 }

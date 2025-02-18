@@ -22,6 +22,7 @@ import kotlin.random.Random
 
 const val dataStoreFileName = "setting.preferences_pb"
 const val BASE_URl = "https://newsapi.org/v2/"
+const val DB_NAME = "NewsDB"
 
 val bottomNavigationList = listOf(
     BottomNavigationItem(

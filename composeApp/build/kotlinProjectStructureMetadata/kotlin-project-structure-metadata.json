@@ -71,7 +71,9 @@
           "io.ktor:ktor-client-content-negotiation",
           "org.jetbrains.kotlinx:kotlinx-serialization-json",
           "co.touchlab:kermit",
-          "androidx.datastore:datastore-preferences-core"
+          "androidx.datastore:datastore-preferences-core",
+          "androidx.room:room-runtime",
+          "androidx.sqlite:sqlite-bundled"
         ],
         "sourceSetCInteropMetadataDirectory": "appleMain-cinterop",
         "binaryLayout": "klib",
@@ -113,6 +115,8 @@
           "org.jetbrains.kotlinx:kotlinx-serialization-json",
           "co.touchlab:kermit",
           "androidx.datastore:datastore-preferences-core",
+          "androidx.room:room-runtime",
+          "androidx.sqlite:sqlite-bundled",
           "io.ktor:ktor-client-darwin"
         ],
         "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
@@ -146,7 +150,9 @@
           "io.ktor:ktor-client-content-negotiation",
           "org.jetbrains.kotlinx:kotlinx-serialization-json",
           "co.touchlab:kermit",
-          "androidx.datastore:datastore-preferences-core"
+          "androidx.datastore:datastore-preferences-core",
+          "androidx.room:room-runtime",
+          "androidx.sqlite:sqlite-bundled"
         ],
         "sourceSetCInteropMetadataDirectory": "nativeMain-cinterop",
         "binaryLayout": "klib",

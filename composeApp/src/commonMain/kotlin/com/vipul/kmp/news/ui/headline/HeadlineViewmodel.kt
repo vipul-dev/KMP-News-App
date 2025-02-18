@@ -5,7 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.vipul.kmp.news.models.Article
 import com.vipul.kmp.news.models.ErrorResponse
 import com.vipul.kmp.news.models.NewsResponse
-import com.vipul.kmp.news.repository.NewsRepository
+import com.vipul.kmp.news.repository.OnlineNewsRepository
 import com.vipul.kmp.news.utils.Resource
 import io.ktor.client.call.body
 import kotlinx.coroutines.Dispatchers
@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
 class HeadlineViewmodel(
-    private val newsRepository: NewsRepository
+    private val newsRepository: OnlineNewsRepository
 ) : ViewModel() {
 
 
@@ -31,7 +31,7 @@ class HeadlineViewmodel(
      fun getHeadlines() {
         viewModelScope.launch(Dispatchers.IO) {
             _newsStateFlow.emit(Resource.Loading)
-            delay(2500)
+            delay(1500)
             try {
                 val httpResponse = newsRepository.getNews()
                 if (httpResponse.status.value in 200..299) {

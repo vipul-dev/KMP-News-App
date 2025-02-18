@@ -5,17 +5,16 @@ import androidx.lifecycle.viewModelScope
 import com.vipul.kmp.news.models.Article
 import com.vipul.kmp.news.models.ErrorResponse
 import com.vipul.kmp.news.models.NewsResponse
-import com.vipul.kmp.news.repository.NewsRepository
+import com.vipul.kmp.news.repository.OnlineNewsRepository
 import com.vipul.kmp.news.utils.Resource
 import io.ktor.client.call.body
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.IO
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class SearchViewmodel(private val newsRepository: NewsRepository) : ViewModel() {
+class SearchViewmodel(private val newsRepository: OnlineNewsRepository) : ViewModel() {
     private val _newsStateFlow = MutableStateFlow<Resource<List<Article>>>(Resource.Idle)
     val newsStateFlow: StateFlow<Resource<List<Article>>>
         get() = _newsStateFlow

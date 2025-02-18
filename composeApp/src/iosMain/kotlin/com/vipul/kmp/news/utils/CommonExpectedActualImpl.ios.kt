@@ -2,9 +2,14 @@ package com.vipul.kmp.news.utils
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import com.vipul.kmp.news.database.NewsDatabase
+import data.database.instantiateImpl
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.Foundation.NSDocumentDirectory
 import platform.Foundation.NSFileManager
+import platform.Foundation.NSHomeDirectory
 import platform.Foundation.NSURL
 import platform.Foundation.NSUUID
 import platform.Foundation.NSUserDomainMask
@@ -44,5 +49,13 @@ actual fun dataStorePreference(): DataStore<Preferences> {
 
             requireNotNull(documentDirectory).path + "/$dataStoreFileName"
         }
+    )
+}
+
+actual fun getDatabaseBuilder(): RoomDatabase.Builder<NewsDatabase> {
+    val dbFile = NSHomeDirectory() + "/$DB_NAME"
+    return Room.databaseBuilder(
+        name = dbFile,
+        factory = { NewsDatabase::class.instantiateImpl() }
     )
 }

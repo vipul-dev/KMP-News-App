@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vipul.kmp.news.composeApp-mergeReleaseResources-50:/values-v30/values-v30.xml",
+            "outputFile": "com.vipul.kmp.news.composeApp-mergeReleaseResources-53:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "/home/vipul/.gradle/caches/8.9/transforms/7385dea88ea32db6b461f3b53b97e33a/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "source": "/home/vipul/.gradle/caches/8.9/transforms/10f05f723528a0f099f5a0278b5c6034/transformed/material3-release/res/values-v30/values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
