@@ -4,7 +4,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.scaleIn
-import com.vipul.kmp.news.ui.navigation.BottomNavigationItem
+import com.vipul.kmp.news.ui.navigation.NavigationItem
 import com.vipul.kmp.news.ui.navigation.MainScreenRoute
 import kmp_news_app.composeapp.generated.resources.Res
 import kmp_news_app.composeapp.generated.resources.bookmark
@@ -17,25 +17,33 @@ import kmp_news_app.composeapp.generated.resources.light_mode
 import kmp_news_app.composeapp.generated.resources.search
 import kmp_news_app.composeapp.generated.resources.system_default
 import org.jetbrains.compose.resources.StringResource
-import kotlin.random.Random
 
 
 const val dataStoreFileName = "setting.preferences_pb"
 const val BASE_URl = "https://newsapi.org/v2/"
 const val DB_NAME = "NewsDB"
+val categoryList = arrayListOf(
+    "Business",
+    "Entertainment",
+    "General",
+    "Health",
+    "Science",
+    "Sports",
+    "Technology"
+)
 
-val bottomNavigationList = listOf(
-    BottomNavigationItem(
+val navigationItemList = listOf(
+    NavigationItem(
         icon = Res.drawable.ic_headline,
         title = Res.string.headlines,
         route = MainScreenRoute.Headline.route
     ),
-    BottomNavigationItem(
+    NavigationItem(
         icon = Res.drawable.ic_search,
         title = Res.string.search,
         route = MainScreenRoute.Search.route
     ),
-    BottomNavigationItem(
+    NavigationItem(
         icon = Res.drawable.ic_bookmark_outline,
         title = Res.string.bookmark,
         route = MainScreenRoute.Bookmark.route

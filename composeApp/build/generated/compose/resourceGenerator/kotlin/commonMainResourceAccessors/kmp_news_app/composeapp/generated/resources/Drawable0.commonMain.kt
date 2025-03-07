@@ -44,6 +44,9 @@ private object CommonMainDrawable0 {
 
   public val ic_search: DrawableResource by 
       lazy { init_ic_search() }
+
+  public val logo: DrawableResource by 
+      lazy { init_logo() }
 }
 
 @InternalResourceApi
@@ -60,6 +63,7 @@ internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, Drawab
   map.put("ic_network_error", CommonMainDrawable0.ic_network_error)
   map.put("ic_retry", CommonMainDrawable0.ic_retry)
   map.put("ic_search", CommonMainDrawable0.ic_search)
+  map.put("logo", CommonMainDrawable0.logo)
 }
 
 internal val Res.drawable.compose_multiplatform: DrawableResource
@@ -197,5 +201,16 @@ private fun init_ic_search(): DrawableResource = org.jetbrains.compose.resources
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmp_news_app.composeapp.generated.resources/drawable/ic_search.xml", -1, -1),
+    )
+)
+
+internal val Res.drawable.logo: DrawableResource
+  get() = CommonMainDrawable0.logo
+
+private fun init_logo(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
+  "drawable:logo",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmp_news_app.composeapp.generated.resources/drawable/logo.png", -1, -1),
     )
 )

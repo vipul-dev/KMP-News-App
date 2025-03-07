@@ -50,9 +50,16 @@ kotlin {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
 
+            // Koin
+            implementation(libs.koin.android)
+            implementation(libs.koin.androidx.compose)
+
             //Ktor
             implementation(libs.ktor.client.android)
             implementation(libs.ktor.client.okhttp)
+
+            //Splash screen
+            implementation(libs.androidx.core.splashscreen)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -93,6 +100,14 @@ kotlin {
             implementation(libs.sqlite.bundled)
 
 
+            // Koin
+            api(libs.koin.core)
+            implementation(libs.koin.compose)
+//            implementation(libs.koin.composeVM)
+
+
+            // window size
+            implementation(libs.screen.size)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)

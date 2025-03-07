@@ -3,10 +3,11 @@ package com.vipul.kmp.news.ui.articleDetail
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -19,24 +20,24 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.font.FontWeight
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil3.compose.AsyncImage
+import com.vipul.kmp.news.di.koinViewModel
 import com.vipul.kmp.news.models.Article
-import com.vipul.kmp.news.repository.LocalNewsRepository
-import com.vipul.kmp.news.theme.detailImageSize
+import com.vipul.kmp.news.theme.mediumPadding
 import com.vipul.kmp.news.theme.xLargePadding
-import com.vipul.kmp.news.utils.getDatabaseBuilder
-import com.vipul.kmp.news.utils.getRoomDatabase
 import com.vipul.kmp.news.utils.shareLink
 import kmp_news_app.composeapp.generated.resources.Res
 import kmp_news_app.composeapp.generated.resources.article_detail
+import kmp_news_app.composeapp.generated.resources.ic_bookmark_filled
 import kmp_news_app.composeapp.generated.resources.ic_bookmark_outline
 import kmp_news_app.composeapp.generated.resources.ic_browse
 import kmp_news_app.composeapp.generated.resources.ic_error
@@ -50,9 +51,13 @@ fun ArticleDetailScreen(
     navController: NavController,
     currentArticle: Article
 ) {
-    val articleDetailsViewModel = viewModel {
-        ArticleDetailsViewModel(LocalNewsRepository(getRoomDatabase(getDatabaseBuilder()).newsDao()))
+    val articleDetailsViewModel = koinViewModel<ArticleDetailsViewModel>()
+
+    LaunchedEffect(Unit) {
+        articleDetailsViewModel.isArticleBookmark(currentArticle)
     }
+
+
     val urlHandler = LocalUriHandler.current
     Scaffold(
         topBar = {
@@ -102,7 +107,7 @@ fun ArticleDetailScreen(
                         }
                     ) {
                         Icon(
-                            painterResource(Res.drawable.ic_bookmark_outline),
+                            painterResource(if (articleDetailsViewModel.isBookmarked) Res.drawable.ic_bookmark_filled else Res.drawable.ic_bookmark_outline),
                             contentDescription = null
                         )
                     }
@@ -112,20 +117,28 @@ fun ArticleDetailScreen(
     ) { innerPadding ->
         LazyColumn(
             modifier = Modifier.fillMaxSize().padding(innerPadding),
-            contentPadding = PaddingValues(xLargePadding),
-            verticalArrangement = Arrangement.spacedBy(xLargePadding)
+            contentPadding = PaddingValues(horizontal = xLargePadding),
+            verticalArrangement = Arrangement.spacedBy(mediumPadding),
+            horizontalAlignment = Alignment.Start
         ) {
             item {
-                AsyncImage(
-                    modifier = Modifier.fillMaxWidth().height(detailImageSize)
-                        .clip(MaterialTheme.shapes.large).background(
-                            Color.Gray
-                        ),
-                    model = currentArticle.urlToImage,
-                    error = painterResource(Res.drawable.ic_error),
-                    contentScale = ContentScale.Crop,
-                    contentDescription = null
-                )
+
+                Row(
+                    modifier = Modifier.fillParentMaxWidth(),
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    AsyncImage(
+                        modifier = Modifier
+                            .wrapContentSize()
+
+                            .clip(MaterialTheme.shapes.large)
+                            .background(Color.Gray),
+                        model = currentArticle.urlToImage,
+                        error = painterResource(Res.drawable.ic_error),
+                        contentScale = ContentScale.FillBounds,
+                        contentDescription = null
+                    )
+                }
             }
 
             item {

@@ -54,6 +54,7 @@ fun SettingScreen(rootNavController: NavHostController, settingViewModel: Settin
                     showDeleteBookmarkDialog = false
                 },
                 onDeleteBookmark = {
+                    settingViewModel.deleteAllBookmark()
                     showDeleteBookmarkDialog = false
                 }
             )
@@ -79,7 +80,7 @@ fun SettingScreen(rootNavController: NavHostController, settingViewModel: Settin
                 title = {
                     Text(
                         text = stringResource(Res.string.setting),
-                        style = MaterialTheme.typography.headlineSmall,
+                        style = MaterialTheme.typography.headlineLarge,
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.onBackground
                     )

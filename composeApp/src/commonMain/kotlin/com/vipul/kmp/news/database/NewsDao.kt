@@ -1,6 +1,7 @@
 package com.vipul.kmp.news.database
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
@@ -14,6 +15,14 @@ interface NewsDao {
     suspend fun insertOrUpdateNews(article: Article)
 
     @Query("Select * From articleTable")
-    fun getArticle(): Flow<List<Article>>
+    fun getArticles(): Flow<List<Article>>
 
+    @Query("Select * From articleTable where articleId=:articleId")
+    suspend fun getArticle(articleId: String): Article?
+
+    @Delete
+    suspend fun deleteArticle(article: Article)
+
+    @Query("Delete From articleTable")
+    suspend fun deleteAllArticle()
 }

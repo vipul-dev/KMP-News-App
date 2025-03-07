@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,7 +21,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import coil3.compose.AsyncImage
 import com.vipul.kmp.news.models.Article
 import com.vipul.kmp.news.theme.imageSize
-import com.vipul.kmp.news.theme.mediumPadding
+import com.vipul.kmp.news.theme.xSmallPadding
 import com.vipul.kmp.news.theme.xxSmallPadding
 import kmp_news_app.composeapp.generated.resources.Res
 import kmp_news_app.composeapp.generated.resources.ic_error
@@ -30,48 +32,56 @@ fun ArticleItem(
     article: Article,
     onClick: () -> Unit
 ) {
-    Row(
-        modifier = Modifier.clickable {
-            onClick()
-        },
-        horizontalArrangement = Arrangement.spacedBy(mediumPadding)
+    Card(
+        onClick = onClick,
+        shape = RoundedCornerShape(10),
+        colors = CardDefaults.cardColors(contentColor = MaterialTheme.colorScheme.surfaceContainer)
     ) {
-        AsyncImage(
-            modifier = Modifier.size(imageSize).clip(RoundedCornerShape(10))
-                .background(Color.Gray),
-            model = article.urlToImage,
-            error = painterResource(Res.drawable.ic_error),
-            contentScale = ContentScale.Crop, contentDescription = null
-        )
-        Column(
-            modifier = Modifier.weight(1f),
-            verticalArrangement = Arrangement.spacedBy(xxSmallPadding)
+        Row(
+            modifier = Modifier.clickable {
+                onClick()
+            },
+            horizontalArrangement = Arrangement.spacedBy(xSmallPadding)
         ) {
-            Text(
-                text = article.title,
-                style = MaterialTheme.typography.titleLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                overflow = TextOverflow.Ellipsis,
-                fontWeight = FontWeight.Bold,
-                maxLines = 2
+            AsyncImage(
+                modifier = Modifier.size(imageSize).clip(RoundedCornerShape(10))
+                    .background(Color.Gray),
+                model = article.urlToImage,
+                error = painterResource(Res.drawable.ic_error),
+                contentScale = ContentScale.Crop, contentDescription = null
             )
-
-            article.description?.let {
+            Column(
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(xxSmallPadding)
+            ) {
                 Text(
-                    text = it,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    text = article.title,
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.onSurface,
                     overflow = TextOverflow.Ellipsis,
+                    fontWeight = FontWeight.Bold,
                     maxLines = 2
                 )
-            }
 
-            Text(
-                text = article.source.name,
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.onSurface,
-                fontWeight = FontWeight.Bold
-            )
+                article.description?.let {
+                    Text(
+                        text = it,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        overflow = TextOverflow.Ellipsis,
+                        maxLines = 2
+                    )
+                }
+
+                article.source.name?.let {
+                    Text(
+                        text = it,
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+            }
         }
     }
 

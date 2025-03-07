@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
     <string name="app_name">KMP-News-APP</string>
+    <style name="Theme.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsTheme</item>
+    </style>
+    <style name="Theme.NewsTheme" parent="@android:style/Theme.Material.Light.NoActionBar"/>
 </resources>

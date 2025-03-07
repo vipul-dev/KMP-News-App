@@ -31,7 +31,7 @@ class BookmarkViewmodel(
             _newsStateFlow.emit(Resource.Loading)
             delay(2500)
             try {
-                newsRepository.getArticle().catch {
+                newsRepository.getArticles().catch {
                     it.printStackTrace()
                     _newsStateFlow.emit(Resource.Error(it.message.toString()))
                 }.collect { articleList ->
