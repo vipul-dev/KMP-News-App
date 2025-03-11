@@ -76,13 +76,13 @@ kotlin {
             //Navigation Compose
             implementation(libs.navigation.compose)
 
-            //Coil
+            //Coil for image processing
             implementation(libs.coil.compose.core)
             implementation(libs.coil.compose)
             implementation(libs.coil.mp)
             implementation(libs.coil.network.ktor3)
 
-            // Ktor
+            // Ktor for network calling
             implementation(libs.ktor.core)
             implementation(libs.ktor.json)
             implementation(libs.ktor.logging)
@@ -100,7 +100,7 @@ kotlin {
             implementation(libs.sqlite.bundled)
 
 
-            // Koin
+            // Koin for dependency injection
             api(libs.koin.core)
             implementation(libs.koin.compose)
 //            implementation(libs.koin.composeVM)

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:1-29:12
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/0c0f7444ad17b06fb96f1d42e42cf7e9/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-android:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/6e231bbf7bb749e786147d0afb529a00/transformed/koin-android-4.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.0-rc02] /home/vipul/.gradle/caches/8.9/transforms/699075717c40c5d3d8268b0d3ffe9512/transformed/coil-compose-release/AndroidManifest.xml:2:1-7:12
@@ -96,28 +96,28 @@ MERGED from [androidx.tracing:tracing:1.0.0] /home/vipul/.gradle/caches/8.9/tran
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vipul/.gradle/caches/8.9/transforms/c79a86d17d9ccc977560c3b261308ff9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/vipul/.gradle/caches/8.9/transforms/c43764a3f41bbcd7c7854be6fa79e5a4/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:5-76
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:5-76
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:22-73
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:5-79
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:22-76
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
 MERGED from [io.insert-koin:koin-android:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/6e231bbf7bb749e786147d0afb529a00/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/6e231bbf7bb749e786147d0afb529a00/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/04c98725b72b1b1de82dee44af7417f9/transformed/library-release/AndroidManifest.xml:7:5-14:19
@@ -141,47 +141,47 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /home/vipul/.grad
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/794ebe6d2cc471eefd3b8d8e9b8ffe92/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/vipul/.gradle/caches/8.9/transforms/794ebe6d2cc471eefd3b8d8e9b8ffe92/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/e995f0d9b5a0d8c06957e4f35589535c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:14:9-35
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:12:9-41
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:13:9-54
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:11:9-43
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:10:9-35
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:15:9-47
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:15:9-47
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:9:9-30
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:9:9-30
 activity#com.vipul.kmp.news.MainActivity
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:16:9-26:20
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:16:9-26:20
 	android:exported
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:19:13-36
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:19:13-36
 	android:configChanges
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:18:13-225
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:18:13-225
 	android:theme
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:20:13-51
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:20:13-51
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:21:13-25:29
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:17-69
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:25-66
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:17-77
+ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:27-74
+		ADDED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:27-74
 uses-sdk
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
-INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/0c0f7444ad17b06fb96f1d42e42cf7e9/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/0c0f7444ad17b06fb96f1d42e42cf7e9/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:4.0.0] /home/vipul/.gradle/caches/8.9/transforms/6e231bbf7bb749e786147d0afb529a00/transformed/koin-android-4.0.0/AndroidManifest.xml:5:5-44
@@ -365,9 +365,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/vipul/.gradle/cache
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/vipul/.gradle/caches/8.9/transforms/c43764a3f41bbcd7c7854be6fa79e5a4/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/vipul/.gradle/caches/8.9/transforms/c43764a3f41bbcd7c7854be6fa79e5a4/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml
 provider#org.jetbrains.compose.resources.AndroidContextProvider
 ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /home/vipul/.gradle/caches/8.9/transforms/04c98725b72b1b1de82dee44af7417f9/transformed/library-release/AndroidManifest.xml:8:9-13:20
 	android:enabled

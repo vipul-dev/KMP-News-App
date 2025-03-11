@@ -9,14 +9,14 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
-11-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+11-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+11-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-12-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:5-76
-12-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:22-73
+12-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:5-76
+12-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:5:22-73
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:5-79
-13-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:22-76
+13-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:5-79
+13-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:6:22-76
 14
 15    <permission
 15-->[androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/e995f0d9b5a0d8c06957e4f35589535c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
@@ -30,45 +30,45 @@
 19-->[androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/e995f0d9b5a0d8c06957e4f35589535c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
+21-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:8:5-27:19
 22        android:name="com.vipul.kmp.news.MyApp"
-22-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:9:9-30
+22-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:9:9-30
 23        android:allowBackup="true"
-23-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:10:9-35
+23-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:10:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 24-->[androidx.core:core:1.13.1] /home/vipul/.gradle/caches/8.9/transforms/e995f0d9b5a0d8c06957e4f35589535c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:icon="@mipmap/ic_launcher"
-27-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:11:9-43
+27-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:11:9-43
 28        android:label="@string/app_name"
-28-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:12:9-41
+28-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:12:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:13:9-54
+29-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:13:9-54
 30        android:supportsRtl="true"
-30-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:14:9-35
+30-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:14:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.NewsTheme" >
-32-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:15:9-47
+32-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:15:9-47
 33        <activity
-33-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:16:9-26:20
+33-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:16:9-26:20
 34            android:name="com.vipul.kmp.news.MainActivity"
-34-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+34-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
 35            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|mnc|colorMode|density|fontScale|fontWeightAdjustment|keyboard|layoutDirection|locale|mcc|navigation|smallestScreenSize|touchscreen|uiMode"
-35-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:18:13-225
+35-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:18:13-225
 36            android:exported="true"
-36-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:19:13-36
+36-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:19:13-36
 37            android:theme="@style/Theme.NewsTheme" >
-37-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:20:13-51
+37-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:20:13-51
 38            <intent-filter>
-38-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:21:13-25:29
+38-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:21:13-25:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:17-69
-39-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:25-66
+39-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:17-69
+39-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:22:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:17-77
-41-->/home/vipul/AndroidStudioProjects/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:27-74
+41-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:17-77
+41-->/home/vipul/AndroidStudioProjects/KMP/KMP-News-App/composeApp/src/androidMain/AndroidManifest.xml:24:27-74
 42            </intent-filter>
 43        </activity>
 44
